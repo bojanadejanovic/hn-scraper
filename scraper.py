@@ -1,6 +1,5 @@
 from dotenv import load_dotenv
 import os
-import boto3
 import io
 import requests
 from bs4 import BeautifulSoup
