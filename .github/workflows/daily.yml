@@ -14,6 +14,10 @@ jobs:
       MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
       EMAIL_RECIPIENT: ${{ vars.EMAIL_RECIPIENT }}
       TOP_N: ${{ vars.TOP_N }}
+      HETZNER_ACCESS_KEY: ${{ secrets.HETZNER_ACCESS_KEY }}
+      HETZNER_SECRET_KEY: ${{ secrets.HETZNER_SECRET_KEY }}
+      HETZNER_ENDPOINT: ${{ secrets.HETZNER_ENDPOINT }}
+      HETZNER_BUCKET: ${{ secrets.HETZNER_BUCKET }}
 
     steps:
       - name: Checkout code

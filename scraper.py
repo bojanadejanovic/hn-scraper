@@ -1,7 +1,11 @@
 from dotenv import load_dotenv
 import os
+import boto3
+import io
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime, timezone
+from minio import Minio
 
 load_dotenv(dotenv_path=".env.local")  # 👈 explicitly load your file
 
@@ -40,40 +44,76 @@ for page in range(1, 20):  # Pages 1 to 10
             "score": score
         })
 
+
+
 # === Sort and prepare email content ===
 sorted_items = sorted(ITEMS, key=lambda x: x["score"], reverse=True)
-html_body = "<html><body>"
-html_body += "<h2>🔥 Hacker News Daily Digest</h2><ol>"
 
-for item in sorted_items[:TOP_N]:
-    html_body += f"<li><strong>{item['score']} pts</strong> - <a href='{item['link']}'>{item['title']}</a></li>"
 
-html_body += "</ol></body></html>"
+# Create CSV content in-memory
+csv_buffer = io.StringIO()
+csv_buffer.write("title,link,score\n")
+for item in sorted_items:
+    csv_buffer.write(f'"{item["title"]}","{item["link"]}",{item["score"]}\n')
 
-text_body = "\n\n".join(
-    [f"{item['title']} ({item['score']} points)\n{item['link']}" for item in sorted_items[:TOP_N]]
+# Convert to bytes (Minio requires binary stream)
+csv_bytes = io.BytesIO(csv_buffer.getvalue().encode("utf-8"))
+
+# Hetzner S3 config
+client = Minio(
+    endpoint=os.environ["HETZNER_ENDPOINT"].replace("https://", ""),  # just host:port
+    access_key=os.environ["HETZNER_ACCESS_KEY"],
+    secret_key=os.environ["HETZNER_SECRET_KEY"],
+    secure=True
 )
 
+bucket = os.environ["HETZNER_BUCKET"]
+filename = f"hn-digest-{datetime.now(timezone.utc).strftime('%Y-%m-%d')}.csv"
 
-
-# === Send email using Mailgun ===
-print("Sending email...")
-response = requests.post(
-    f"https://api.mailgun.net/v3/{MAILGUN_DOMAIN}/messages",
-    auth=("api", MAILGUN_API_KEY),
-    data={
-        "from": EMAIL_SENDER,
-        "to": EMAIL_RECIPIENT,
-        "subject": "🔥 Hacker News Daily Digest",
-        "text": text_body, # fallback for text-only email clients
-        "html": html_body
-    }
+# Upload
+client.put_object(
+    bucket_name=bucket,
+    object_name=filename,
+    data=csv_bytes,
+    length=csv_bytes.getbuffer().nbytes,
+    content_type="text/csv"
 )
 
-# === Log ===
-if response.status_code == 200:
-    print("Email sent successfully!")
-else:
-    print("Failed to send email.")
-    print("Status Code:", response.status_code)
-    print("Response:", response.text)
+print(f"✅ Uploaded to Hetzner: {filename}")
+
+# # === Create HTML and text body for email ===
+# html_body = "<html><body>"
+# html_body += "<h2>🔥 Hacker News Daily Digest</h2><ol>"
+
+# for item in sorted_items[:TOP_N]:
+#     html_body += f"<li><strong>{item['score']} pts</strong> - <a href='{item['link']}'>{item['title']}</a></li>"
+
+# html_body += "</ol></body></html>"
+
+# text_body = "\n\n".join(
+#     [f"{item['title']} ({item['score']} points)\n{item['link']}" for item in sorted_items[:TOP_N]]
+# )
+
+
+
+# # === Send email using Mailgun ===
+# print("Sending email...")
+# response = requests.post(
+#     f"https://api.mailgun.net/v3/{MAILGUN_DOMAIN}/messages",
+#     auth=("api", MAILGUN_API_KEY),
+#     data={
+#         "from": EMAIL_SENDER,
+#         "to": EMAIL_RECIPIENT,
+#         "subject": "🔥 Hacker News Daily Digest",
+#         "text": text_body, # fallback for text-only email clients
+#         "html": html_body
+#     }
+# )
+
+# # === Log ===
+# if response.status_code == 200:
+#     print("Email sent successfully!")
+# else:
+#     print("Failed to send email.")
+#     print("Status Code:", response.status_code)
+#     print("Response:", response.text)
