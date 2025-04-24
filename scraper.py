@@ -81,39 +81,39 @@ client.put_object(
 
 print(f"✅ Uploaded to Hetzner: {filename}")
 
-# # === Create HTML and text body for email ===
-# html_body = "<html><body>"
-# html_body += "<h2>🔥 Hacker News Daily Digest</h2><ol>"
+# === Create HTML and text body for email ===
+html_body = "<html><body>"
+html_body += "<h2>🔥 Hacker News Daily Digest</h2><ol>"
 
-# for item in sorted_items[:TOP_N]:
-#     html_body += f"<li><strong>{item['score']} pts</strong> - <a href='{item['link']}'>{item['title']}</a></li>"
+for item in sorted_items[:TOP_N]:
+    html_body += f"<li><strong>{item['score']} pts</strong> - <a href='{item['link']}'>{item['title']}</a></li>"
 
-# html_body += "</ol></body></html>"
+html_body += "</ol></body></html>"
 
-# text_body = "\n\n".join(
-#     [f"{item['title']} ({item['score']} points)\n{item['link']}" for item in sorted_items[:TOP_N]]
-# )
+text_body = "\n\n".join(
+    [f"{item['title']} ({item['score']} points)\n{item['link']}" for item in sorted_items[:TOP_N]]
+)
 
 
 
-# # === Send email using Mailgun ===
-# print("Sending email...")
-# response = requests.post(
-#     f"https://api.mailgun.net/v3/{MAILGUN_DOMAIN}/messages",
-#     auth=("api", MAILGUN_API_KEY),
-#     data={
-#         "from": EMAIL_SENDER,
-#         "to": EMAIL_RECIPIENT,
-#         "subject": "🔥 Hacker News Daily Digest",
-#         "text": text_body, # fallback for text-only email clients
-#         "html": html_body
-#     }
-# )
+# === Send email using Mailgun ===
+print("Sending email...")
+response = requests.post(
+    f"https://api.mailgun.net/v3/{MAILGUN_DOMAIN}/messages",
+    auth=("api", MAILGUN_API_KEY),
+    data={
+        "from": EMAIL_SENDER,
+        "to": EMAIL_RECIPIENT,
+        "subject": "🔥 Hacker News Daily Digest",
+        "text": text_body, # fallback for text-only email clients
+        "html": html_body
+    }
+)
 
-# # === Log ===
-# if response.status_code == 200:
-#     print("Email sent successfully!")
-# else:
-#     print("Failed to send email.")
-#     print("Status Code:", response.status_code)
-#     print("Response:", response.text)
+# === Log ===
+if response.status_code == 200:
+    print("Email sent successfully!")
+else:
+    print("Failed to send email.")
+    print("Status Code:", response.status_code)
+    print("Response:", response.text)
