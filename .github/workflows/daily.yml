@@ -1,0 +1,31 @@
+name: Hacker News Daily Digest
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # Runs every day at 08:00 UTC (adjust for your timezone)
+  workflow_dispatch:     # Allows manual triggering too
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+
+    env:
+      MAILGUN_DOMAIN: ${{ secrets.MAILGUN_DOMAIN }}
+      MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
+      EMAIL_RECIPIENT: ${{ vars.EMAIL_RECIPIENT }}
+      TOP_N: ${{ vars.TOP_N }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper.py
