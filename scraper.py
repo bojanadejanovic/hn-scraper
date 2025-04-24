@@ -42,9 +42,19 @@ for page in range(1, 20):  # Pages 1 to 10
 
 # === Sort and prepare email content ===
 sorted_items = sorted(ITEMS, key=lambda x: x["score"], reverse=True)
-email_body = "\n\n".join(
+html_body = "<html><body>"
+html_body += "<h2>🔥 Hacker News Daily Digest</h2><ol>"
+
+for item in sorted_items[:TOP_N]:
+    html_body += f"<li><strong>{item['score']} pts</strong> - <a href='{item['link']}'>{item['title']}</a></li>"
+
+html_body += "</ol></body></html>"
+
+text_body = "\n\n".join(
     [f"{item['title']} ({item['score']} points)\n{item['link']}" for item in sorted_items[:TOP_N]]
 )
+
+
 
 # === Send email using Mailgun ===
 print("Sending email...")
@@ -55,7 +65,8 @@ response = requests.post(
         "from": EMAIL_SENDER,
         "to": EMAIL_RECIPIENT,
         "subject": "🔥 Hacker News Daily Digest",
-        "text": email_body
+        "text": text_body, # fallback for text-only email clients
+        "html": html_body
     }
 )
 
