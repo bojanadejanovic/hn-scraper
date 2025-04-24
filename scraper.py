@@ -1,0 +1,68 @@
+from dotenv import load_dotenv
+import os
+import requests
+from bs4 import BeautifulSoup
+
+load_dotenv(dotenv_path=".env.local")  # 👈 explicitly load your file
+
+# === Config from env ===
+MAILGUN_DOMAIN = os.environ["MAILGUN_DOMAIN"]
+MAILGUN_API_KEY = os.environ["MAILGUN_API_KEY"]
+EMAIL_RECIPIENT = os.environ["EMAIL_RECIPIENT"]
+TOP_N = int(os.environ.get("TOP_N", 20))
+EMAIL_SENDER = f"HN Daily <mailgun@{MAILGUN_DOMAIN}>"
+
+# === Scrape Hacker News ===
+BASE_URL = "https://news.ycombinator.com/?p="
+ITEMS = []
+
+for page in range(1, 20):  # Pages 1 to 10
+    print(f"Scraping page {page}...")
+    res = requests.get(BASE_URL + str(page))
+    soup = BeautifulSoup(res.text, 'html.parser')
+
+    stories = soup.select(".athing")
+    subtexts = soup.select(".athing + tr")
+
+    for story, subtext in zip(stories, subtexts):
+        title_tag = story.select_one(".titleline a")
+        if not title_tag:
+            continue  # Skip malformed rows
+
+        title = title_tag.get_text(strip=True)
+        link = title_tag['href']
+        score_tag = subtext.select_one(".score")
+        score = int(score_tag.get_text().split()[0]) if score_tag else 0
+
+        ITEMS.append({
+            "title": title,
+            "link": link,
+            "score": score
+        })
+
+# === Sort and prepare email content ===
+sorted_items = sorted(ITEMS, key=lambda x: x["score"], reverse=True)
+email_body = "\n\n".join(
+    [f"{item['title']} ({item['score']} points)\n{item['link']}" for item in sorted_items[:TOP_N]]
+)
+
+# === Send email using Mailgun ===
+print("Sending email...")
+response = requests.post(
+    f"https://api.mailgun.net/v3/{MAILGUN_DOMAIN}/messages",
+    auth=("api", MAILGUN_API_KEY),
+    data={
+        "from": EMAIL_SENDER,
+        "to": EMAIL_RECIPIENT,
+        "subject": "🔥 Hacker News Daily Digest",
+        "text": email_body
+    }
+)
+
+# === Log ===
+if response.status_code == 200:
+    print("Email sent successfully!")
+else:
+    print("Failed to send email.")
+    print("Status Code:", response.status_code)
+    print("Response:", response.text)
