@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 8 * * *'  # Runs every day at 08:00 UTC (adjust for your timezone)
   workflow_dispatch:     # Allows manual triggering too
+permissions:
+  contents: write  # ✅ This enables commit & push to the repository
 
 jobs:
   send-digest:
