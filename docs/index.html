@@ -1,29 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HN Daily Digest</title>
-  </head>
-  <body>
-    <ul id="digest-list"></ul>
-    <script>
-      fetch("digest.json")
-        .then((res) => res.json())
-        .then((days) => {
-          fetch(days[0].csv_url)
-            .then((res) => res.text())
-            .then((csv) => {
-              const lines = csv.trim().split("\n").slice(1, 21); // skip header, top 20
-              const list = document.getElementById("digest-list");
-              lines.forEach((line) => {
-                const [title, link, score] = line.split(",");
-                const li = document.createElement("li");
-                li.innerHTML = `<strong>${score}</strong> – <a href=${link}>${title}</a>`;
-                list.appendChild(li);
-              });
-            });
+<head>
+  <meta charset="UTF-8">
+  <title>🔥 Hacker News Daily Digest</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    h1, h2 {
+      color: #ff6600;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 1em;
+    }
+    a {
+      text-decoration: none;
+      color: #1a0dab;
+    }
+    select {
+      padding: 0.5em;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔥 Hacker News Daily Digest</h1>
+
+  <label for="digest-select">Select a date:</label>
+  <select id="digest-select"></select>
+
+  <h2 id="selected-date"></h2>
+  <ul id="digest-preview">Loading...</ul>
+
+  <script>
+    const digestList = document.getElementById('digest-preview');
+    const select = document.getElementById('digest-select');
+    const selectedDateLabel = document.getElementById('selected-date');
+
+    let digests = [];
+
+    function renderDigest(csvText) {
+      digestList.innerHTML = '';
+      const lines = csvText.trim().split("\n").slice(1, 21); // skip header, show top 20
+      lines.forEach(line => {
+        const [title, link, score] = line.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/); // CSV-safe split
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${score.trim()} pts</strong> – <a href=${link.trim().replace(/^"|"$/g, '')} target="_blank">${title.replace(/^"|"$/g, '')}</a>`;
+        digestList.appendChild(li);
+      });
+    }
+
+    function loadDigest(csvPath, date) {
+      selectedDateLabel.textContent = `Top 20 stories for ${date}`;
+      fetch(csvPath)
+        .then(res => res.text())
+        .then(renderDigest)
+        .catch(() => {
+          digestList.innerHTML = '<li>Failed to load digest.</li>';
         });
-    </script>
-  </body>
+    }
+
+    fetch('digest.json')
+      .then(res => res.json())
+      .then(json => {
+        digests = json.sort((a, b) => b.date.localeCompare(a.date)); // newest first
+
+        digests.forEach(d => {
+          const option = document.createElement('option');
+          option.value = d.csv;
+          option.textContent = d.date;
+          select.appendChild(option);
+        });
+
+        // Auto-load most recent
+        if (digests.length) {
+          select.value = digests[0].csv;
+          loadDigest(digests[0].csv, digests[0].date);
+        }
+
+        select.addEventListener('change', () => {
+          const selected = digests.find(d => d.csv === select.value);
+          if (selected) {
+            loadDigest(selected.csv, selected.date);
+          }
+        });
+      })
+      .catch(() => {
+        digestList.innerHTML = '<li>Failed to load digests index.</li>';
+      });
+  </script>
+</body>
 </html>
