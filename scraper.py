@@ -82,6 +82,10 @@ url = client.presigned_get_object(
     object_name=filename,
     expires=timedelta(days=7)  # URL valid for 7 days
 )
+if not url:
+    print("ERROR: URL was not generated")
+    exit(1)
+
 print(f"🔗 Presigned URL: {url}")
 
 print(f"✅ Uploaded to Hetzner: {filename}")

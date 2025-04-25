@@ -32,6 +32,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run scraper and export digest url
+        id: scrape
         run: python scraper.py
 
       - name: Download digest from Hetzner
