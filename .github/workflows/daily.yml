@@ -1,29 +1,29 @@
-name: Hacker News Daily Digest
+name: Hacker News Digest
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Runs every day at 08:00 UTC (adjust for your timezone)
-  workflow_dispatch:     # Allows manual triggering too
+    - cron: '0 8 * * *'  # Daily at 08:00 UTC
+  workflow_dispatch:
+
 permissions:
-  contents: write  # ✅ This enables commit & push to the repository
+  contents: write  # Required to commit/push to the repo
 
 jobs:
-  send-digest:
+  daily-digest:
     runs-on: ubuntu-latest
 
     env:
       MAILGUN_DOMAIN: ${{ secrets.MAILGUN_DOMAIN }}
       MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
       EMAIL_RECIPIENT: ${{ vars.EMAIL_RECIPIENT }}
-      TOP_N: ${{ vars.TOP_N }}
+      TOP_N: 20
       HETZNER_ACCESS_KEY: ${{ secrets.HETZNER_ACCESS_KEY }}
       HETZNER_SECRET_KEY: ${{ secrets.HETZNER_SECRET_KEY }}
       HETZNER_ENDPOINT: ${{ secrets.HETZNER_ENDPOINT }}
       HETZNER_BUCKET: ${{ secrets.HETZNER_BUCKET }}
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run scraper and export digest url
+      - name: Run scraper and export digest URL
         id: scrape
         run: python scraper.py
 
@@ -41,29 +41,26 @@ jobs:
         run: |
           DIGEST_DATE=$(date -u +%Y-%m-%d)
           DIGEST_FILE="hn-digest-${DIGEST_DATE}.csv"
-          mkdir -p site/data
-          curl -s "${{ steps.scrape.outputs.digest_url }}" -o "site/data/$DIGEST_FILE"
+          mkdir -p docs/data
+          curl -s "${{ steps.scrape.outputs.digest_url }}" -o "docs/data/$DIGEST_FILE"
 
       - name: Update digest index
         run: |
           DIGEST_DATE=$(date -u +%Y-%m-%d)
           DIGEST_FILE="hn-digest-${DIGEST_DATE}.csv"
 
-          if [ ! -f site/digest.json ]; then echo "[]" > site/digest.json; fi
+          if [ ! -f docs/digest.json ]; then echo "[]" > docs/digest.json; fi
 
           jq --arg date "$DIGEST_DATE" --arg file "$DIGEST_FILE" \
             'map(select(.date != $date)) | [{"date": $date, "csv": "data/\($file)"}] + .' \
-             site/digest.json > site/digest.tmp.json
+            docs/digest.json > docs/digest.tmp.json
 
-          mv site/digest.tmp.json site/digest.json
+          mv docs/digest.tmp.json docs/digest.json
 
-      - name: Validate digest.json
-        run: jq . site/digest.json
-
-      - name: Commit updated site
+      - name: Commit updated digest
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add site/data site/digest.json
+          git add docs/data docs/digest.json
           git commit -m "Update digest for $(date -u +%Y-%m-%d)" || echo "No changes to commit"
           git push
