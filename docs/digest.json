@@ -2,13 +2,5 @@
   {
     "date": "2025-04-25",
     "csv": "data/hn-digest-2025-04-25.csv"
-  },
-  {
-    "date": "2025-04-24",
-    "csv_url": "https://your-bucket/file1.csv"
-  },
-  {
-    "date": "2025-04-23",
-    "csv_url": "https://your-bucket/file2.csv"
   }
 ]
