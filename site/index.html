@@ -1,15 +1,29 @@
-<ul id="digest-list"></ul>
-<script>
-fetch('digest.json').then(res => res.json()).then(days => {
-  fetch(days[0].csv_url).then(res => res.text()).then(csv => {
-    const lines = csv.trim().split("\n").slice(1, 21); // skip header, top 20
-    const list = document.getElementById("digest-list");
-    lines.forEach(line => {
-      const [title, link, score] = line.split(",");
-      const li = document.createElement("li");
-      li.innerHTML = `<strong>${score}</strong> – <a href=${link}>${title}</a>`;
-      list.appendChild(li);
-    });
-  });
-});
-</script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HN Daily Digest</title>
+  </head>
+  <body>
+    <ul id="digest-list"></ul>
+    <script>
+      fetch("digest.json")
+        .then((res) => res.json())
+        .then((days) => {
+          fetch(days[0].csv_url)
+            .then((res) => res.text())
+            .then((csv) => {
+              const lines = csv.trim().split("\n").slice(1, 21); // skip header, top 20
+              const list = document.getElementById("digest-list");
+              lines.forEach((line) => {
+                const [title, link, score] = line.split(",");
+                const li = document.createElement("li");
+                li.innerHTML = `<strong>${score}</strong> – <a href=${link}>${title}</a>`;
+                list.appendChild(li);
+              });
+            });
+        });
+    </script>
+  </body>
+</html>
