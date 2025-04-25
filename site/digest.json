@@ -1,0 +1,14 @@
+[
+  {
+    "date": "2025-04-25",
+    "csv_url": "https://fsn1.your-objectstorage.com/hn-scraper/hn-digest-2025-04-25.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=K1R9V9KYBA729NAM59CR%2F20250425%2Ffsn1-prod1%2Fs3%2Faws4_request&X-Amz-Date=20250425T091634Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1dc9c468ce5e0dfd94c01d10454ee6012a169d8eecfd9ee48829ce87736fdbe0"
+  },
+  {
+    "date": "2025-04-24",
+    "csv_url": "https://your-bucket/file1.csv"
+  },
+  {
+    "date": "2025-04-23",
+    "csv_url": "https://your-bucket/file2.csv"
+  }
+]

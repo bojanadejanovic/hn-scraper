@@ -55,6 +55,9 @@ jobs:
 
           mv site/digest.tmp.json site/digest.json
 
+      - name: Validate digest.json
+        run: jq . site/digest.json
+
       - name: Commit updated site
         run: |
           git config user.name "github-actions"
