@@ -50,8 +50,8 @@ jobs:
           if [ ! -f site/digest.json ]; then echo "[]" > site/digest.json; fi
 
           jq --arg date "$DIGEST_DATE" --arg file "$DIGEST_FILE" \
-            'map(select(.date != $date)) | [{"date": $date, "csv": "data/" + $file}] + .' \
-            site/digest.json > site/digest.tmp.json
+            'map(select(.date != $date)) | [{"date": $date, "csv": "data/\($file)"}] + .' \
+             site/digest.json > site/digest.tmp.json
 
           mv site/digest.tmp.json site/digest.json
 
