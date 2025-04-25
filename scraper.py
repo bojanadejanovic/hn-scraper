@@ -3,7 +3,7 @@ import os
 import io
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from minio import Minio
 
 load_dotenv(dotenv_path=".env.local")  # 👈 explicitly load your file
@@ -77,8 +77,20 @@ client.put_object(
     length=csv_bytes.getbuffer().nbytes,
     content_type="text/csv"
 )
+url = client.presigned_get_object(
+    bucket_name=bucket,
+    object_name=filename,
+    expires=timedelta(days=7)  # URL valid for 7 days
+)
+print(f"🔗 Presigned URL: {url}")
 
 print(f"✅ Uploaded to Hetzner: {filename}")
+
+print(f"📦 CSV file size: {csv_bytes.getbuffer().nbytes} bytes")
+
+# Output for GitHub Actions
+with open(os.environ.get("GITHUB_OUTPUT", "digest-output.txt"), "a") as f:
+    f.write(f"digest_url={url}\n")
 
 # === Create HTML and text body for email ===
 html_body = "<html><body>"
@@ -111,8 +123,8 @@ response = requests.post(
 
 # === Log ===
 if response.status_code == 200:
-    print("Email sent successfully!")
+    print("✉️ Email sent successfully!")
 else:
-    print("Failed to send email.")
+    print("❌ Failed to send email.")
     print("Status Code:", response.status_code)
     print("Response:", response.text)

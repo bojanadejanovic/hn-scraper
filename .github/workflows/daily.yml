@@ -31,5 +31,33 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run scraper
+      - name: Run scraper and export digest url
         run: python scraper.py
+
+      - name: Download digest from Hetzner
+        run: |
+          DIGEST_DATE=$(date -u +%Y-%m-%d)
+          DIGEST_FILE="hn-digest-${DIGEST_DATE}.csv"
+          mkdir -p site/data
+          curl -s "${{ steps.scrape.outputs.digest_url }}" -o "site/data/$DIGEST_FILE"
+
+      - name: Update digest index
+        run: |
+          DIGEST_DATE=$(date -u +%Y-%m-%d)
+          DIGEST_FILE="hn-digest-${DIGEST_DATE}.csv"
+
+          if [ ! -f site/digest.json ]; then echo "[]" > site/digest.json; fi
+
+          jq --arg date "$DIGEST_DATE" --arg file "$DIGEST_FILE" \
+            'map(select(.date != $date)) | [{"date": $date, "csv": "data/" + $file}] + .' \
+            site/digest.json > site/digest.tmp.json
+
+          mv site/digest.tmp.json site/digest.json
+
+      - name: Commit updated site
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add site/data site/digest.json
+          git commit -m "Update digest for $(date -u +%Y-%m-%d)" || echo "No changes to commit"
+          git push
