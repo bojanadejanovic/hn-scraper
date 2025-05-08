@@ -1,5 +1,9 @@
 [
   {
+    "date": "2025-05-08",
+    "csv": "data/hn-digest-2025-05-08.csv"
+  },
+  {
     "date": "2025-05-07",
     "csv": "data/hn-digest-2025-05-07.csv"
   },
