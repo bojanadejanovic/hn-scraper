@@ -1,5 +1,89 @@
 [
   {
+    "date": "2025-05-16",
+    "csv": "data/hn-digest-2025-05-16.csv"
+  },
+  {
+    "date": "2025-05-15",
+    "csv": "data/hn-digest-2025-05-15.csv"
+  },
+  {
+    "date": "2025-05-14",
+    "csv": "data/hn-digest-2025-05-14.csv"
+  },
+  {
+    "date": "2025-05-13",
+    "csv": "data/hn-digest-2025-05-13.csv"
+  },
+  {
+    "date": "2025-05-12",
+    "csv": "data/hn-digest-2025-05-12.csv"
+  },
+  {
+    "date": "2025-05-11",
+    "csv": "data/hn-digest-2025-05-11.csv"
+  },
+  {
+    "date": "2025-05-10",
+    "csv": "data/hn-digest-2025-05-10.csv"
+  },
+  {
+    "date": "2025-05-09",
+    "csv": "data/hn-digest-2025-05-09.csv"
+  },
+  {
+    "date": "2025-05-08",
+    "csv": "data/hn-digest-2025-05-08.csv"
+  },
+  {
+    "date": "2025-05-07",
+    "csv": "data/hn-digest-2025-05-07.csv"
+  },
+  {
+    "date": "2025-05-06",
+    "csv": "data/hn-digest-2025-05-06.csv"
+  },
+  {
+    "date": "2025-05-05",
+    "csv": "data/hn-digest-2025-05-05.csv"
+  },
+  {
+    "date": "2025-05-04",
+    "csv": "data/hn-digest-2025-05-04.csv"
+  },
+  {
+    "date": "2025-05-03",
+    "csv": "data/hn-digest-2025-05-03.csv"
+  },
+  {
+    "date": "2025-05-02",
+    "csv": "data/hn-digest-2025-05-02.csv"
+  },
+  {
+    "date": "2025-05-01",
+    "csv": "data/hn-digest-2025-05-01.csv"
+  },
+  {
+    "date": "2025-04-30",
+    "csv": "data/hn-digest-2025-04-30.csv"
+  },
+  {
+    "date": "2025-04-29",
+    "csv": "data/hn-digest-2025-04-29.csv"
+  },
+  {
+    "date": "2025-04-28",
+    "csv": "data/hn-digest-2025-04-28.csv"
+  },
+  {
+    "date": "2025-04-27",
+    "csv": "data/hn-digest-2025-04-27.csv"
+  },
+  {
+    "date": "2025-04-26",
+    "csv": "data/hn-digest-2025-04-26.csv"
+  },
+  {
     "date": "2025-04-25",
     "csv": "data/hn-digest-2025-04-25.csv"
   }
