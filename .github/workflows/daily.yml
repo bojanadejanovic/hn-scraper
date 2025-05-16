@@ -2,7 +2,7 @@ name: Hacker News Digest
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Daily at 08:00 UTC
+    - cron: '0 9 * * 1'  # Weekly on Monday at 09:00 UTC
   workflow_dispatch:
 
 permissions:

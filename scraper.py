@@ -98,7 +98,7 @@ with open(os.environ.get("GITHUB_OUTPUT", "digest-output.txt"), "a") as f:
 
 # === Create HTML and text body for email ===
 html_body = "<html><body>"
-html_body += "<h2>🔥 Hacker News Daily Digest</h2><ol>"
+html_body += "<h2>🔥 Hacker News Weekly Digest</h2><ol>"
 
 for item in sorted_items[:TOP_N]:
     html_body += f"<li><strong>{item['score']} pts</strong> - <a href='{item['link']}'>{item['title']}</a></li>"
@@ -119,7 +119,7 @@ response = requests.post(
     data={
         "from": EMAIL_SENDER,
         "to": EMAIL_RECIPIENT,
-        "subject": "🔥 Hacker News Daily Digest",
+        "subject": "🔥 Hacker News Weekly Digest",
         "text": text_body, # fallback for text-only email clients
         "html": html_body
     }
