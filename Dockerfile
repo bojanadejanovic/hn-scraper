@@ -9,4 +9,4 @@ COPY hn_daily_report.py .
 
 RUN pip install requests beautifulsoup4
 
-CMD ["python", "hn_daily_report.py"]
+CMD ["python", "scraper.py"]
