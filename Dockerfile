@@ -7,6 +7,6 @@ COPY scraper.py .
 # Optional: Copy env vars if using a .env file
 # COPY .env .
 
-RUN pip install requests beautifulsoup4
+RUN pip install -r requirements.txt
 
 CMD ["python", "scraper.py"]
