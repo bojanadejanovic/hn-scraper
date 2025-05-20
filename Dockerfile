@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY hn_daily_report.py .
+COPY scraper.py .
 
 # Optional: Copy env vars if using a .env file
 # COPY .env .
