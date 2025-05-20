@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY scraper.py .
+COPY . .
 
 # Optional: Copy env vars if using a .env file
 # COPY .env .
