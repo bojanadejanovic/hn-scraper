@@ -1,0 +1,571 @@
+title,link,score
+"AWS multiple services outage in us-east-1","https://health.aws.amazon.com/health/status?ts=20251020",2243
+"Space Elevator","https://neal.fun/space-elevator/",1796
+"Google flags Immich sites as dangerous","https://immich.app/blog/google-flags-immich-as-dangerous",1453
+"Scripts I wrote that I use all the time","https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/",1310
+"Trump pardons convicted Binance founder","https://www.wsj.com/finance/currencies/trump-pardons-convicted-binance-founder-7509bd63",1041
+"Today is when the Amazon brain drain sent AWS down the spout","https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/",1017
+"DeepSeek OCR","https://github.com/deepseek-ai/DeepSeek-OCR",996
+"Replacing a $3000/mo Heroku bill with a $55/mo server","https://disco.cloud/blog/how-idealistorg-replaced-a-3000mo-heroku-bill-with-a-55-server/",810
+"ChatGPT Atlas","https://chatgpt.com/atlas",769
+"US axes website for reporting human rights abuses by US-armed foreign forces","https://www.bbc.com/news/articles/cqx30vnwd4do",769
+"What happened to Apple's legendary attention to detail?","https://blog.johnozbay.com/what-happened-to-apples-attention-to-detail.html",766
+"What happened to Apple's legendary attention to detail?","https://blog.johnozbay.com/what-happened-to-apples-attention-to-detail.html",766
+"MinIO stops distributing free Docker images","https://github.com/minio/minio/issues/21647#issuecomment-3418675115",732
+"The Swift SDK for Android","https://www.swift.org/blog/nightly-swift-sdk-for-android/",690
+"Armed police swarm student after AI mistakes bag of Doritos for a weapon","https://www.dexerto.com/entertainment/armed-police-swarm-student-after-ai-mistakes-bag-of-doritos-for-a-weapon-3273512/",687
+"Doing well in your courses: Andrej's advice for success (2013)","https://cs.stanford.edu/people/karpathy/advice.html",677
+"VST3 audio plugin format is now MIT","https://forums.steinberg.net/t/vst-3-8-0-sdk-released/1011988",657
+"A worker fell into a nuclear reactor pool","https://www.nrc.gov/reading-rm/doc-collections/event-status/event/2025/20251022en?brid=vscAjql9kZL1FfGE7TYHVw#en57996:~:text=TRANSPORT%20OF%20CONTAMINATED%20PERSON%20OFFSITE",650
+"Greg Newby, CEO of Project Gutenberg Literary Archive Foundation, has died","https://www.pgdp.net/wiki/In_Memoriam/gbnewby",647
+"Unlocking free WiFi on British Airways","https://www.saxrag.com/tech/reversing/2025/06/01/BAWiFi.html",645
+"Typst 0.14","https://typst.app/blog/2025/typst-0.14/",642
+"Accessing Max Verstappen's passport and PII through FIA bugs","https://ian.sh/fia",627
+"Internet's biggest annoyance: Cookie laws should target browsers, not websites","https://nednex.com/en/the-internets-biggest-annoyance-why-cookie-laws-should-target-browsers-not-websites/",621
+"A laser pointer at 2B FPS [video]","https://www.youtube.com/watch?v=o4TdHrMi6do",617
+"/dev/null is an ACID compliant database","https://jyu.dev/blog/why-dev-null-is-an-acid-compliant-database/",611
+"Entire Linux Network stack diagram (2024)","https://zenodo.org/records/14179366",605
+"Claude Code on the web","https://www.anthropic.com/news/claude-code-on-the-web",577
+"Servo v0.0.1","https://github.com/servo/servo",570
+"Claude Memory","https://www.anthropic.com/news/memory",558
+"Roc Camera","https://roc.camera/",551
+"Production RAG: what I learned from processing 5M+ documents","https://blog.abdellatif.io/production-rag-processing-5m-documents",549
+"Summary of the Amazon DynamoDB Service Disruption in US-East-1 Region","https://aws.amazon.com/message/101925/",542
+"Postman which I thought worked locally on my computer, is down","https://status.postman.com",537
+"First convex polyhedron found that can't pass through itself","https://www.quantamagazine.org/first-shape-found-that-cant-pass-through-itself-20251024/",530
+"Meta is axing 600 roles across its AI division","https://www.theverge.com/news/804253/meta-ai-research-layoffs-fair-superintelligence",526
+"Alibaba Cloud says it cut Nvidia AI GPU use by 82% with new pooling system","https://www.tomshardware.com/tech-industry/semiconductors/alibaba-says-new-pooling-system-cut-nvidia-gpu-use-by-82-percent",522
+"You already have a Git server","https://maurycyz.com/misc/easy_git/",509
+"Counter-Strike's player economy is in a freefall","https://www.polygon.com/counter-strike-cs-player-economy-multi-billion-dollar-freefall/",485
+"Willow quantum chip demonstrates verifiable quantum advantage on hardware","https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/",476
+"LLMs can get "brain rot"","https://llm-brain-rot.github.io/",471
+"Programming with Less Than Nothing","https://joshmoody.org/blog/programming-with-less-than-nothing/",461
+"BERT is just a single text diffusion step","https://nathan.rs/posts/roberta-diffusion/",454
+"Downloadable movie posters from the 40s, 50s, 60s, and 70s","https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search",448
+"The Linux Boot Process: From Power Button to Kernel","https://www.0xkato.xyz/linux-boot/",447
+"Wikipedia says traffic is falling due to AI search summaries and social video","https://techcrunch.com/2025/10/18/wikipedia-says-traffic-is-falling-due-to-ai-search-summaries-and-social-video/",444
+"Foreign hackers breached a US nuclear weapons plant via SharePoint flaws","https://www.csoonline.com/article/4074962/foreign-hackers-breached-a-us-nuclear-weapons-plant-via-sharepoint-flaws.html",441
+"AI assistants misrepresent news content 45% of the time","https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content",441
+"Advent of Code 2025: Number of puzzles reduce from 25 to 12 for the first time","https://adventofcode.com/2025/about#faq_num_days",432
+"OpenAI researcher announced GPT-5 math breakthrough that never happened","https://the-decoder.com/leading-openai-researcher-announced-a-gpt-5-math-breakthrough-that-never-happened/",430
+"Neural audio codecs: how to get audio into LLMs","https://kyutai.org/next/codec-explainer",426
+"'Attention is all you need' coauthor says he's 'sick' of transformers","https://venturebeat.com/ai/sakana-ais-cto-says-hes-absolutely-sick-of-transformers-the-tech-that-powers",424
+"Novo Nordisk's Canadian Mistake","https://www.science.org/content/blog-post/novo-nordisk-s-canadian-mistake",422
+"Karpathy on DeepSeek-OCR paper: Are pixels better inputs to LLMs than text?","https://twitter.com/karpathy/status/1980397031542989305",407
+"French ex-president Sarkozy begins jail sentence","https://www.bbc.com/news/articles/cvgkm2j0xelo",405
+"NASA chief suggests SpaceX may be booted from moon mission","https://www.cnn.com/2025/10/20/science/nasa-spacex-moon-landing-contract-sean-duffy",404
+"United MAX Hit by Falling Object at 36,000 Feet","https://avbrief.com/united-max-hit-by-falling-object-at-36000-feet/",404
+"Ask HN: Our AWS account got compromised after their outage","item?id=45657345",393
+"JMAP for Calendars, Contacts and Files Now in Stalwart","https://stalw.art/blog/jmap-collaboration/",388
+"Let's Help NetBSD Cross the Finish Line Before 2025 Ends","https://mail-index.netbsd.org/netbsd-users/2025/10/26/msg033327.html",387
+"Valetudo: Cloud replacement for vacuum robots enabling local-only operation","https://valetudo.cloud/",387
+"A bug that taught me more about PyTorch than years of using it","https://elanapearl.github.io/blog/2025/the-bug-that-taught-me-pytorch/",380
+"Pico-Banana-400k","https://github.com/apple/pico-banana-400k",379
+"PyTorch Monarch","https://pytorch.org/blog/introducing-pytorch-monarch/",375
+"I see a future in jj","https://steveklabnik.com/writing/i-see-a-future-in-jj/",373
+"Apple loses UK App Store monopoly case, penalty might near $2B","https://9to5mac.com/2025/10/23/apple-loses-uk-app-store-monopoly-case-penalty-might-near-2-billion/",368
+"Public Montessori programs strengthen learning outcomes at lower costs: study","https://phys.org/news/2025-10-national-montessori-early-outcomes-sharply.html",366
+"Xubuntu.org Might Be Compromised","https://old.reddit.com/r/Ubuntu/comments/1oa4549/xubuntuorg_might_be_compromised/",365
+"Twake Drive – An open-source alternative to Google Drive","https://github.com/linagora/twake-drive",364
+"Computer science courses that don't exist, but should (2015)","https://prog21.dadgum.com/210.html",364
+"60k kids have avoided peanut allergies due to 2015 advice, study finds","https://www.cbsnews.com/news/peanut-allergies-60000-kids-avoided-2015-advice/",352
+"Docker Systems Status: Full Service Disruption","https://www.dockerstatus.com/pages/incident/533c6539221ae15e3f000031/68f5e1c741c825463df7486c",344
+"California invests in battery energy storage, leaving rolling blackouts behind","https://www.latimes.com/environment/story/2025-10-17/california-made-it-through-another-summer-without-a-flex-alert",339
+"Meet the real screen addicts: the elderly","https://www.economist.com/international/2025/10/23/meet-the-real-screen-addicts-the-elderly",333
+"Forth: The programming language that writes itself","https://ratfactor.com/forth/the_programming_language_that_writes_itself.html",330
+"I'm drowning in AI features I never asked for and I hate it","https://www.makeuseof.com/ai-features-being-rammed-down-our-throats/",328
+"Ovi: Twin backbone cross-modal fusion for audio-video generation","https://github.com/character-ai/Ovi",313
+"Asahi Linux Still Working on Apple M3 Support, M1n1 Bootloader Going Rust","https://www.phoronix.com/news/Asahi-Linux-M3-m1n1-Update",310
+"The Journey Before main()","https://amit.prasad.me/blog/before-main",307
+"People with blindness can read again after retinal implant and special glasses","https://www.nbcnews.com/health/health-news/tiny-eye-implant-special-glasses-legally-blind-patients-can-read-rcna238488",306
+"Why I code as a CTO","https://www.assembled.com/blog/why-i-code-as-a-cto",299
+"FocusTube: A Chrome extension that hides YouTube Shorts","https://github.com/CaptainYouz/FocusTube",299
+"React vs. Backbone in 2025","https://backbonenotbad.hyperclay.com/",296
+"I invited strangers to message me through a receipt printer","https://aschmelyun.com/blog/i-invited-strangers-to-message-me-through-a-receipt-printer/",295
+"Criticisms of “The Body Keeps the Score”","https://josepheverettwil.substack.com/p/the-body-keeps-the-score-is-bullshit",295
+"I spent a year making an ASN.1 compiler in D","https://bradley.chatha.dev/blog/dlang-propaganda/asn1-compiler-in-d/",294
+"Apple alerts exploit developer that his iPhone was targeted with gov spyware","https://techcrunch.com/2025/10/21/apple-alerts-exploit-developer-that-his-iphone-was-targeted-with-government-spyware/",290
+"OpenBSD 7.8","https://cdn.openbsd.org/pub/OpenBSD/7.8/ANNOUNCEMENT",285
+"We do not have sufficient links to the UK for Online Safety Act to be applicable","https://libera.chat/news/advised",281
+"When is it better to think without words?","https://www.henrikkarlsson.xyz/p/wordless-thought",278
+"Code like a surgeon","https://www.geoffreylitt.com/2025/10/24/code-like-a-surgeon",275
+"The Programmer Identity Crisis","https://hojberg.xyz/the-programmer-identity-crisis/",274
+"D2: Diagram Scripting Language","https://d2lang.com/tour/intro/",273
+"Poker fraud used X-ray tables, high-tech glasses and NBA players","https://www.bbc.com/news/articles/cz6nd9wnzn6o",272
+"Date bug in Rust-based coreutils affects Ubuntu 25.10 automatic updates","https://lwn.net/Articles/1043103/",270
+"Element: setHTML() method","https://developer.mozilla.org/en-US/docs/Web/API/Element/setHTML",265
+"Asbestosis","https://diamondgeezer.blogspot.com/2025/10/asbestosis.html",260
+"Movie posters from Ghana in the 1980s and 90s","https://www.utterlyinteresting.com/post/bizarre-movie-posters-from-africa-that-are-so-bad-they-re-good",260
+"J.P. Morgan's OpenAI loan is strange","https://marketunpack.com/j-p-morgans-openai-loan-is-strange/",259
+"Fallout from the AWS outage: Smart mattresses go rogue","https://quasa.io/media/the-strangest-fallout-from-the-aws-outage-smart-mattresses-go-rogue-and-ruin-sleep-worldwide",258
+"Study: MRI contrast agent causes harmful metal buildup in some patients","https://www.ormanager.com/briefs/study-mri-contrast-agent-causes-harmful-metal-buildup-in-some-patients/",252
+"Radios, how do they work? (2024)","https://lcamtuf.substack.com/p/radios-how-do-they-work",250
+"Rivian's TM-B electric bike","https://www.theverge.com/news/804157/rivian-tm-b-electric-bike-price-specs-helmet-quad",250
+"Living Dangerously with Claude","https://simonwillison.net/2025/Oct/22/living-dangerously-with-claude/",248
+"Show HN: Diagram as code tool with draggable customizations","https://github.com/RohanAdwankar/oxdraw",247
+"rlsw – Raylib software OpenGL renderer in less than 5k LOC","https://github.com/raysan5/raylib/blob/master/src/external/rlsw.h",247
+"OpenAI acquires Sky.app","https://openai.com/index/openai-acquires-software-applications-incorporated",245
+"Key IOCs for Pegasus and Predator Spyware Removed with iOS 26 Update","https://iverify.io/blog/key-iocs-for-pegasus-and-predator-spyware-cleaned-with-ios-26-update",239
+"Harnessing America's heat pump moment","https://www.heatpumped.org/p/harnessing-america-s-heat-pump-moment",239
+"Duke Nukem: Zero Hour N64 ROM Reverse-Engineering Project Hits 100%","https://github.com/Gillou68310/DukeNukemZeroHour",235
+"WebDAV isn't dead yet","https://blog.feld.me/posts/2025/09/webdav-isnt-dead-yet/",234
+"Public trust demands open-source voting systems","https://www.voting.works/news/public-trust-demands-open-source-voting-systems",234
+"SpaceX disables 2,500 Starlink terminals allegedly used by Asian scam centers","https://arstechnica.com/tech-policy/2025/10/starlink-blocks-2500-dishes-allegedly-used-by-myanmars-notorious-scam-centers/",234
+"Mesh2Motion – Open-source web application to animate 3D models","https://mesh2motion.org/",226
+"Look, Another AI Browser","https://manuelmoreale.com/thoughts/look-another-ai-browser",226
+"Debian Technical Committee overrides systemd change","https://lwn.net/Articles/1041316/",224
+"ICE Will Use AI to Surveil Social Media","https://jacobin.com/2025/10/ice-zignal-surveillance-social-media",223
+"UA 1093","https://windbornesystems.com/blog/ua-1093",222
+"Compare Single Board Computers","https://sbc.compare/",222
+"What if tariffs?","https://www.swatch.com/en-en/what-if-tariffs-so34z106/SO34Z106.html",221
+"Why SSA?","https://mcyoung.xyz/2025/10/21/ssa-1/",221
+"A definition of AGI","https://arxiv.org/abs/2510.18212",220
+"Why formalize mathematics – more than catching errors","https://rkirov.github.io/posts/why_lean/",219
+"A sharded DuckDB on 63 nodes runs 1T row aggregation challenge in 5 sec","https://gizmodata.com/blog/gizmoedge-one-trillion-row-challenge",219
+"Erowid - Documenting the Complex Relationship Between Humans and Psychoactives","https://www.erowid.org",214
+"Show HN: Duck-UI – Browser-Based SQL IDE for DuckDB","https://demo.duckui.com",213
+"Linux Capabilities Revisited","https://dfir.ch/posts/linux_capabilities/",210
+"How I turned Zig into my favorite language to write network programs in","https://lalinsky.com/2025/10/26/zio-async-io-for-zig.html",209
+"Feed the bots","https://maurycyz.com/misc/the_cost_of_trash/",209
+"US hits $38T in debt. Fastest accumulation of $1T outside pandemic","https://apnews.com/article/trump-treasury-debt-ceiling-bessent-09575f13ca95c2f1beb38234b2cbe85b",209
+"Poison, Poison Everywhere","https://loeber.substack.com/p/29-poison-poison-everywhere",207
+"iOS 26.1 lets users control Liquid Glass transparency","https://www.macrumors.com/2025/10/20/ios-26-1-liquid-glass-toggle/",206
+"StarGrid: A new Palm OS strategy game","https://quarters.captaintouch.com/blog/posts/2025-10-21-stargrid-has-arrived,-a-brand-new-palm-os-strategy-game-in-2025.html",205
+"Disable AI in Firefox","https://flamedfury.com/posts/disable-ai-in-firefox/",203
+"The future of Python web services looks GIL-free","https://blog.baro.dev/p/the-future-of-python-web-services-looks-gil-free",202
+"Diamond Thermal Conductivity: A New Era in Chip Cooling","https://spectrum.ieee.org/diamond-thermal-conductivity",202
+"Getting DeepSeek-OCR working on an Nvidia Spark via brute force with Claude Code","https://simonwillison.net/2025/Oct/20/deepseek-ocr-claude-code/",201
+"Eavesdropping on Internal Networks via Unencrypted Satellites","https://satcom.sysnet.ucsd.edu/",200
+"The game theory of how algorithms can drive up prices","https://www.quantamagazine.org/the-game-theory-of-how-algorithms-can-drive-up-prices-20251022/",199
+"Gleam OTP – Fault Tolerant Multicore Programs with Actors","https://github.com/gleam-lang/otp",197
+"HP SitePrint","https://www.hp.com/us-en/printers/site-print/layout-robot.html",196
+"Introduction to reverse-engineering vintage synth firmware","https://ajxs.me/blog/Introduction_to_Reverse-Engineering_Vintage_Synth_Firmware.html",196
+"Ask HN: What are people doing to get off of VMware?","item?id=45635940",196
+"Can “second life” EV batteries work as grid-scale energy storage?","https://www.volts.wtf/p/can-second-life-ev-batteries-work",195
+"Rock Tumbler Instructions","https://rocktumbler.com/tips/rock-tumbler-instructions/",194
+"The Hidden Engineering of Niagara Falls","https://practical.engineering/blog/2025/10/21/the-hidden-engineering-of-niagara-falls",193
+"Tell HN: OpenAI now requires ID verification and won't refund API credits","item?id=45702363",191
+"Microsoft 365 Copilot – Arbitrary Data Exfiltration via Mermaid Diagrams","https://www.adamlogue.com/microsoft-365-copilot-arbitrary-data-exfiltration-via-mermaid-diagrams-fixed/",190
+"Making a micro Linux distro (2023)","https://popovicu.com/posts/making-a-micro-linux-distro/",190
+"We Saved $500k per Year by Rolling Our Own "S3"","https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143",188
+"Show HN: Playwright Skill for Claude Code – Less context than playwright-MCP","https://github.com/lackeyjb/playwright-skill",188
+"Show HN: I built a tech news aggregator that works the way my brain does","https://deadstack.net/recent",187
+"Mosquitoes discovered in Iceland for the first time","https://www.cnn.com/2025/10/21/climate/iceland-mosquito-discovery",186
+"Tesla Recalls Almost 13,000 EVs over Risk of Battery Power Loss","https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss",186
+"OpenMaxIO: Forked UI for MinIO Object Storage","https://github.com/OpenMaxIO/openmaxio-object-browser",184
+"Galaxy XR: The first Android XR headset","https://blog.google/products/android/samsung-galaxy-xr/",184
+"Starcloud","https://blogs.nvidia.com/blog/starcloud/",184
+"Show HN: MyraOS – My 32-bit operating system in C and ASM (Hack Club project)","https://github.com/dvir-biton/MyraOS",182
+"GenAI Image Editing Showdown","https://genai-showdown.specr.net/",182
+"Is Sora the beginning of the end for OpenAI?","https://calnewport.com/is-sora-the-beginning-of-the-end-for-openai/",182
+"Alzheimer's disrupts circadian rhythms of plaque-clearing brain cells","https://medicine.washu.edu/news/alzheimers-disrupts-circadian-rhythms-of-plaque-clearing-brain-cells/",181
+"GNU Octave Meets JupyterLite: Compute Anywhere, Anytime","https://blog.jupyter.org/gnu-octave-meets-jupyterlite-compute-anywhere-anytime-8b033afbbcdc",181
+"Peanut allergies have plummeted in children","https://www.nytimes.com/2025/10/20/well/peanut-allergy-drop.html",179
+"What is intelligence? (2024)","https://whatisintelligence.antikythera.org/",178
+"Language Support for Marginalia Search","https://www.marginalia.nu/log/a_126_multilingual/",178
+"What do we do if SETI is successful?","https://www.universetoday.com/articles/what-do-we-do-if-seti-is-successful",178
+"Context engineering is sleeping on the humble hyperlink","https://mbleigh.dev/posts/context-engineering-with-links/",176
+"Designing software for things that rot","https://drobinin.com/posts/designing-software-for-things-that-rot/",176
+"x86-64 Playground – An online assembly editor and GDB-like debugger","https://x64.halb.it/",176
+"Myanmar military shuts down a major cybercrime center, detains over 2k people","https://apnews.com/article/scam-centers-cybercrime-myanmar-a2c9fda85187121e51bd0efdf29c81da",172
+"React Flow, open source libraries for node-based UIs with React or Svelte","https://github.com/xyflow/xyflow",168
+"The case for the return of fine-tuning","https://welovesota.com/article/the-case-for-the-return-of-fine-tuning",167
+"Cryptographic Issues in Cloudflare's Circl FourQ Implementation (CVE-2025-8556)","https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation",166
+"Clojure Land – Discover open-source Clojure libraries and frameworks","https://clojure.land/",165
+"How to make a Smith chart","https://www.johndcook.com/blog/2025/10/23/smith-chart/",165
+"Dosbian: Boot to DOSBox on Raspberry Pi","https://cmaiolino.wordpress.com/dosbian/",165
+"Sodium-ion batteries have started to appear in cars and home storage","https://cleantechnica.com/2025/10/22/the-sodium-ion-battery-revolution-has-started/",165
+"Wren: A classy little scripting language","https://wren.io/",164
+"PCB Edge USB C Connector Library","https://github.com/AnasMalas/pcb-edge-usb-c",160
+"Ken Thompson recalls Unix's rowdy, lock-picking origins","https://thenewstack.io/ken-thompson-recalls-unixs-rowdy-lock-picking-origins/",159
+"The security paradox of local LLMs","https://quesma.com/blog/local-llms-security-paradox/",159
+"Abandoned land drives dangerous heat in Houston, study finds","https://stories.tamu.edu/news/2025/10/07/abandoned-land-drives-dangerous-heat-in-houston-texas-am-study-finds/",159
+"Why can't transformers learn multiplication?","https://arxiv.org/abs/2510.00184",158
+"Practical Scheme","https://practical-scheme.net/index.html#docs",156
+"The death of thread per core","https://buttondown.com/jaffray/archive/the-death-of-thread-per-core/",154
+"SourceFS: A 2h+ Android build becomes a 15m task with a virtual filesystem","https://www.source.dev/journal/sourcefs",153
+"Euro cops take down cybercrime network with 49M fake accounts","https://www.itnews.com.au/news/euro-cops-take-down-cybercrime-network-with-49-million-fake-accounts-621174",152
+"New updates and more access to Google Earth AI","https://blog.google/technology/research/new-updates-and-more-access-to-google-earth-ai/",150
+"Mistakes I see engineers making in their code reviews","https://www.seangoedecke.com/good-code-reviews/",148
+"An Update on TinyKVM","https://fwsgonzo.medium.com/an-update-on-tinykvm-7a38518e57e9",148
+"Evaluating the Infinity Cache in AMD Strix Halo","https://chipsandcheese.com/p/evaluating-the-infinity-cache-in",147
+"Bat v0.26.0","https://github.com/sharkdp/bat/releases/tag/v0.26.0",147
+"Alaska Airlines' statement on IT outage","https://news.alaskaair.com/on-the-record/alaska-statement-on-it-outage/",145
+"The Accountability Problem","https://www.jamesshore.com/v2/blog/2025/the-accountability-problem",144
+"New OSM file format: 30% smaller than PBF, 5x faster to import","https://community.openstreetmap.org/t/new-osm-file-format-30-smaller-than-pbf-5x-faster-to-import/137151",143
+"Our modular, high-performance Merkle Tree library for Rust","https://github.com/bilinearlabs/rs-merkle-tree",143
+"NextSilicon reveals new processor chip in challenge to Intel, AMD","https://www.reuters.com/business/nextsilicon-reveals-new-processor-chip-challenge-intel-amd-2025-10-22/",142
+"Interstellar Mission to a Black Hole","https://www.centauri-dreams.org/2025/10/23/interstellar-mission-to-a-black-hole/",141
+"Nvidia DGX Spark: When benchmark numbers meet production reality","https://publish.obsidian.md/aixplore/Practical+Applications/dgx-lab-benchmarks-vs-reality-day-4",140
+"JupyterGIS breaks through to the next level","https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/",140
+"How programs get run: ELF binaries (2015)","https://lwn.net/Articles/631631/",139
+"How memory maps (mmap) deliver faster file access in Go","https://info.varnish-software.com/blog/how-memory-maps-mmap-deliver-25x-faster-file-access-in-go",139
+"TernFS – an exabyte scale, multi-region distributed filesystem","https://www.xtxmarkets.com/tech/2025-ternfs/#posix-shaped",138
+"Show HN: Deta Surf – An open source and local-first AI notebook","https://github.com/deta/surf",137
+"Iceland reports the presence of mosquitoes as climate warms","https://www.npr.org/2025/10/22/nx-s1-5582748/iceland-mosquitoes-first-time",137
+"Automating Algorithm Discovery: A Case Study in MoE Load Balancing","https://adrs-ucb.notion.site/moe-load-balancing",134
+"Advice for new principal tech ICs (i.e., notes to myself)","https://eugeneyan.com/writing/principal/",134
+"Formal Reasoning [pdf]","https://cs.ru.nl/~freek/courses/fr-2025/public/fr.pdf",133
+"US probes Waymo robotaxis over school bus safety","https://www.yahoo.com/news/articles/us-investigates-waymo-robotaxis-over-102015308.html",131
+"Show HN: Shadcn/UI theme editor – Design and share Shadcn themes","https://shadcnthemer.com",130
+"C64 Blood Money","https://lemmings.info/c64-blood-money/",130
+"20,858 Public Domain Audio Books","https://librivox.org/search",129
+""ChatGPT said this" Is Lazy","https://terriblesoftware.org/2025/10/24/chatgpt-said-this-is-lazy/",128
+"AI, Wikipedia, and uncorrected machine translations of vulnerable languages","https://www.technologyreview.com/2025/09/25/1124005/ai-wikipedia-vulnerable-languages-doom-spiral/",127
+"Ilo – a Forth system running on UEFI","https://asciinema.org/a/Lbxa2w9R5IbaJqW3INqVrbX8E",124
+"Show HN: Katakate – Dozens of VMs per node for safe code exec","https://github.com/Katakate/k7",124
+"Modern Perfect Hashing","https://blog.sesse.net/blog/tech/2025-10-23-21-23_modern_perfect_hashing.html",122
+"Project Amplify: Powered footwear for running and walking","https://about.nike.com/en/newsroom/releases/nike-project-amplify-official-images",121
+"Doctor Who archive expert shares positive update on missing episode","https://www.radiotimes.com/tv/sci-fi/doctor-who-missing-episodes-update-teases-announcement-newsupdate/",121
+"Doctor Who archive expert shares positive update on missing episode","https://www.radiotimes.com/tv/sci-fi/doctor-who-missing-episodes-update-teases-announcement-newsupdate/",121
+"Pasta/80 is a simple Pascal cross compiler targeting the Z80 microprocessor","https://github.com/pleumann/pasta80",121
+"Antislop: A framework for eliminating repetitive patterns in language models","https://arxiv.org/abs/2510.15061",120
+"Be Careful with Obsidian","https://phong.bearblog.dev/be-careful-with-obsidian/",120
+"Passwords and Power Drills","https://google.github.io/building-secure-and-reliable-systems/raw/ch01.html#on_passwords_and_power_drills",119
+"NORAD’s Cheyenne Mountain Combat Center, c.1966","https://flashbak.com/norad-cheyenne-mountain-combat-center-478804/",118
+"What I Self Host","https://fredrikmeyer.net/2025/10/18/what-i-self-host.html",117
+"The Greatness of Text Adventures","https://entropicthoughts.com/the-greatness-of-text-adventures",117
+"Deterministic multithreading is hard (2024)","https://www.factorio.com/blog/post/fff-415",115
+"Google Pixel's most dangerous bug: failing to call 911","https://www.androidpolice.com/google-pixels-most-dangerous-bug-refuses-to-die/",112
+"Clojure Zippers (2021)","https://grishaev.me/en/clojure-zippers/",110
+"How to Assemble an Electric Heating Element from Scratch","https://solar.lowtechmagazine.com/2025/10/how-to-build-an-electric-heating-element-from-scratch/",110
+"Writing a RISC-V Emulator in Rust","https://book.rvemu.app/",109
+"Linux disk I/O diagram (2024)","https://zenodo.org/records/15234151",107
+"VisiCalc on the Apple II","https://stonetools.ghost.io/visicalc-apple2/",105
+"Make any TypeScript function durable","https://useworkflow.dev/",105
+"Show HN: Tommy – Turn ESP32 devices into through-wall motion sensors","https://www.tommysense.com",104
+"My favorite cult sci-fi and fantasy books you may not have heard of before","https://shepherd.com/best-books/cult-sci-fi-and-fantasy-you-may-not-have-heard-of",103
+"Sandhill cranes have adopted a Canada gosling","https://www.smithsonianmag.com/science-nature/these-sandhill-cranes-have-adopted-a-canadian-gosling-and-birders-have-flocked-to-watch-the-strange-family-180986828/",102
+"Researchers complete first human trial on viability of enteral ventilation","https://newatlas.com/disease/butt-breathing-ignobel-prize/",102
+"Microsoft Teams will start tracking office attendance","https://www.tomsguide.com/computing/office-software/microsoft-teams-will-start-snitching-to-your-boss-when-youre-not-in-the-office-and-this-update-is-coming-in-december",102
+"Show HN: Git for LLMs – A context management interface","https://twigg.ai",101
+"Show HN: Nostr Web – decentralized website hosting on Nostr","https://nweb.shugur.com",101
+"TigerBeetle and Synadia pledge $512k to the Zig Software Foundation","https://tigerbeetle.com/blog/2025-10-25-synadia-and-tigerbeetle-pledge-512k-to-the-zig-software-foundation/#blog-post",100
+"TextEdit and the relief of simple software","https://www.newyorker.com/culture/infinite-scroll/textedit-and-the-relief-of-simple-software",100
+"Carmack on Operating Systems (1997)","https://rmitz.org/carmack.on.operating.systems.html",100
+"Improving PixelMelt's Kindle Web Deobfuscator","https://shkspr.mobi/blog/2025/10/improving-pixelmelts-kindle-web-deobfuscator/",100
+"Ask HN: Not treated respectfully by colleague – advice?","item?id=45700879",99
+"NewPipe Is Turning 10","https://newpipe.net/blog/pinned/announcement/newpipe-turns-10/",99
+"Agent Lightning: Train agents with RL (no code changes needed)","https://github.com/microsoft/agent-lightning",97
+"The macOS LC_COLLATE hunt: Or why does sort order differently on macOS and Linux (2020)","https://blog.zhimingwang.org/macos-lc_collate-hunt",97
+"AI Mafia Network – An interactive visualization","https://dipakwani.com/ai-mafia/",96
+"Zram Performance Analysis","https://notes.xeome.dev/notes/Zram",95
+"Tarmageddon: RCE vulnerability highlights challenges of open source abandonware","https://edera.dev/stories/tarmageddon",94
+"Show HN: Cuq – Formal Verification of Rust GPU Kernels","https://github.com/neelsomani/cuq",94
+"ChunkLLM: A Lightweight Pluggable Framework for Accelerating LLMs Inference","https://arxiv.org/abs/2510.02361",93
+"The FSF considers large language models","https://lwn.net/Articles/1040888/",92
+"Show HN: LLM Rescuer – Fixing the billion dollar mistake in Ruby","https://github.com/barodeur/llm_rescuer",89
+"Luau's performance","https://luau.org/performance",89
+"The Great SaaS Gaslight","https://unworkableideas.com/the-great-saas-lighting-how-it-users-got-gaslit/",88
+"Books by People – Defending Organic Literature in an AI World","https://booksbypeople.org/",87
+"A “knot dominated era” may have existed in the early universe: study","https://phys.org/news/2025-10-key-universe-1800s-idea-science.html",87
+"The Missing Semester of Your CS Education (2020)","https://missing.csail.mit.edu/",86
+"Show HN: Pyversity – Fast Result Diversification for Retrieval and RAG","https://github.com/Pringled/pyversity",86
+"Why your social.org files can have millions of lines without performance issues","https://en.andros.dev/blog/4e12225f/why-your-socialorg-files-can-have-millions-of-lines-without-any-performance-issues/",85
+"The Goon Squad","https://harpers.org/archive/2025/11/the-goon-squad-daniel-kolitz-porn-masturbation-loneliness/",82
+"VectorWare – from creators of `rust-GPU` and `rust-CUDA`","https://www.vectorware.com/blog/announcing-vectorware/",82
+"Show HN: bbcli – A TUI and CLI to browse BBC News like a hacker","https://github.com/hako/bbcli",82
+"Cigarette-smuggling balloons force closure of Lithuanian airport","https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania",82
+"Jacqueline – A minimal i386 kernel written in Pascal (2019)","https://github.com/danirod/jacqueline",81
+"Against SQL (2021)","https://www.scattered-thoughts.net/writing/against-sql/",81
+"The geometry of mathematical methods","https://books.physics.oregonstate.edu/GMM/book.html",80
+"Pyscripter – Open-source Python IDE written in Delphi","https://github.com/pyscripter/pyscripter",80
+"Unconventional Ways to Cast in TypeScript","https://wolfgirl.dev/blog/2025-10-22-4-unconventional-ways-to-cast-in-typescript/",80
+"Smartphones manipulate our emotions and trigger our reflexes","https://theconversation.com/smartphones-manipulate-our-emotions-and-trigger-our-reflexes-no-wonder-were-addicted-265014",79
+"Trader who made $190M shorting crash also apparently bet on CZ's pardon","https://cointelegraph.com/news/donald-trump-us-cz-binance-founder-pardon-crypto-trader-profit",79
+"That Time Ken Thompson Wrote a Backdoor into the C Compiler","https://micahkepe.com/blog/thompson-trojan-horse/",79
+"In memory of the Christmas Island shrew","https://news.mongabay.com/2025/10/in-memory-of-the-christmas-island-shrew/",78
+"Diamond Thermal Conductivity: A New Era in Chip Cooling","https://spectrum.ieee.org/diamond-thermal-conductivity",78
+"Old Computer Challenge – Modern Web for the ZX Spectrum","https://0x00.cl/blog/2025/occ-2025/",78
+"LaserTweezer – Optical Trap","https://www.gaudi.ch/GaudiLabs/?page_id=578",77
+"Tesla's "Mad Max" mode is now under federal scrutiny","https://arstechnica.com/cars/2025/10/feds-probe-tesla-about-its-mad-max-mode/",76
+"YASA beats own power density record pushing electric motor to 59kW/kg benchmark","https://yasa.com/news/yasa-smashes-own-unofficial-power-density-world-record-pushing-state-of-the-art-electric-motor-to-staggering-new-59kw-kg-benchmark/",76
+"Making the Electron Microscope","https://www.asimov.press/p/electron-microscope",75
+"Show HN: OpenSnowcat – A fork of Snowplow to keep open analytics alive","https://opensnowcat.io/",75
+"Google Demanded My Drivers Lic Before Letting Me Read an Article","item?id=45700404",75
+"U.S. details gambling cases involving pro athletes and mafia families","https://www.nytimes.com/live/2025/10/23/nyregion/nba-illegal-gambling-arrests",75
+"From Hollywood to horticulture: Cate Blanchett on a mission to save seeds","https://www.bbc.com/news/articles/cwy7ekl4yl8o",74
+"SierraDB: A distributed event store built in Rust","https://tqwewe.com/blog/building-sierradb/",73
+"ARM Memory Tagging: how it improves C/C++ memory safety (2018) [pdf]","https://llvm.org/devmtg/2018-10/slides/Serebryany-Stepanov-Tsyrklevich-Memory-Tagging-Slides-LLVM-2018.pdf",72
+"YouTube Just Ate TV. It's Only Getting Started","https://www.hollywoodreporter.com/business/digital/youtube-impact-tv-sports-late-night-comedy-shows-1236400353/",71
+"Introduction to the concept of likelihood and its applications (2018)","https://journals.sagepub.com/doi/10.1177/2515245917744314",71
+"Qt Group Buys IAR Systems Group","https://www.qt.io/stock/qt-completes-the-recommended-public-cash-offer-to-the-shareholders-of-iar-systems-group-1760351460000-3668995",71
+"Fast-DLLM: Training-Free Acceleration of Diffusion LLM","https://arxiv.org/abs/2505.22618",70
+""Return YouTube Dislike" Chrome Extension Injecting Ads","https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi/reviews",70
+"Knocker, a knock based access control system for your homelab","https://github.com/FarisZR/knocker",70
+"Kvcached: Virtualized, elastic KV cache for LLM serving on shared GPUs","https://www.notion.so/yifanqiao/Solve-the-GPU-Cost-Crisis-with-kvcached-289da9d1f4d68034b17bf2774201b141",69
+"Louis Rossman: Politician calls constituents criminals with no right to privacy [video]","https://www.youtube.com/watch?v=WJh31Mk7XE4",68
+"Show HN: I'm rewriting a web server written in Rust for speed and ease of use","https://ferron.sh/",68
+"Connect to a 1980s Atari BBS through the web","https://www.southernamis.com/ataribbsconnect",67
+"Normalize.css","https://csstools.github.io/normalize.css/",67
+"GM will ditch Apple CarPlay and Android Auto on all its cars, not just EVs","https://www.theverge.com/transportation/804562/gm-apple-carplay-android-auto-gas-cars-mary-barra",67
+"Validating your ideas on strangers (2017)","https://jeremyaboyd.com/post/validating-your-ideas-on-strangers",66
+"Scheme Reports at Fifty","https://crumbles.blog/posts/2025-10-18-scheme-reports-at-fifty.html",66
+"Switzerland is spending millions revamping its vast network of bunkers","https://www.washingtonpost.com/world/2025/10/25/switzerland-nuclear-bunkers-overhaul/",65
+"Testing out BLE beacons with BeaconDB","https://blog.matthewbrunelle.com/testing-out-ble-beacons-with-beacondb/",63
+"Show HN: MacOS Live Screensaver – A screensaver that plays live video streams","https://github.com/hauxir/macos-live-screensaver",63
+"Reasoning is not model improvement","https://manidoraisamy.com/reasoning-not-ai.html",63
+"Using Emacs as a TUI","https://blog.natfu.be/emacs-in-terminal-ergonomics/",63
+"Are-we-fast-yet implementations in Oberon, C++, C, Pascal, Micron and Luon","https://github.com/rochus-keller/Are-we-fast-yet",62
+"QuickDrawViewer: A Mac OS X utility to visualise QuickDraw (PICT) files","https://github.com/wiesmann/QuickDrawViewer",62
+"The Logarithmic Time Perception Hypothesis","http://www.kafalas.com/Logtime.html",61
+"LoC is a dumb metric for functions","https://theaxolot.wordpress.com/2025/10/18/loc-is-a-dumb-metric-for-functions/",61
+"RF Shielding History: When the FCC Cracked Down on Computers","https://tedium.co/2025/10/20/computers-fcc-rf-interference-history/",60
+"Sphere Computer – The Innovative 1970s Computer Company Everyone Forgot","https://sphere.computer/",59
+"AI Pullback Has Officially Started","https://www.planetearthandbeyond.co/p/ai-pullback-has-officially-started",59
+"The Coming Clash of Civilizations","https://www.notesfromthecircus.com/p/the-coming-clash-of-civilizations",59
+"The Gypsy Life of Robert Louis Stevenson","https://hudsonreview.com/2025/10/the-gypsy-life-of-robert-louis-stevenson/",59
+"Traffic Light Protocol","https://www.first.org/tlp/",58
+"Police Break Up Lego Theft Ring","https://www.nytimes.com/2025/10/18/us/lego-theft-california-arrest.html",58
+"We need to start doing web blocking for non-technical reasons","https://utcc.utoronto.ca/~cks/space/blog/web/WeShouldBlockForSocialReasons?showcomments",58
+"An overengineered solution to `sort | uniq -c` with 25x throughput (hist)","https://github.com/noamteyssier/hist-rs",57
+"Fast TypeScript (Code Complexity) Analyzer","https://ftaproject.dev/",57
+"Egg prices vs. Consumer Price Index since 1980","https://fred.stlouisfed.org/graph/?g=1Nm5b",57
+"LightlyStudio – an open-source multimodal data curation and labeling tool","https://github.com/lightly-ai/lightly-studio",54
+"Belittled Magazine: Thirty years after the Sokal affair","https://thebaffler.com/salvos/belittled-magazine-robbins",54
+"Researchers demonstrate centimetre-level positioning using smartwatches","https://www.otago.ac.nz/news/newsroom/researchers-demonstrate-centimetre-level-positioning-using-smartwatches",53
+"The Mainframe Six (2022)","https://arcanesciences.com/os2200/app1.html",52
+"We rewrote OpenFGA in pure Postgres","https://getrover.substack.com/p/how-we-rewrote-openfga-in-pure-postgres",52
+"Satellite shows what's happening in the East Wing of the White House","https://arstechnica.com/space/2025/10/satellite-shows-whats-really-happening-at-the-east-wing-of-the-white-house/",52
+"Feed me up, Scotty – custom RSS feed generation using CSS selectors","https://feed-me-up-scotty.vincenttunru.com/",52
+"Show HN: Helium Browser for Android with extensions support, based on Vanadium","https://github.com/jqssun/android-helium-browser",50
+"We're in the wrong moment","https://ezrichards.github.io/posts/were-in-the-wrong-moment/",50
+"How count-min sketches work – frequencies, but without the actual data","https://www.instantdb.com/essays/count_min_sketch",49
+"Recall for Linux","https://github.com/rolflobker/recall-for-linux",48
+""Learn APL" Notes","https://luksamuk.codes/pages/learn-apl.html",48
+"Diphtheria, a once vanquished killer of children, is resurgent","https://www.nytimes.com/2025/10/27/health/diptheria-somalia-vaccines.html",46
+"Show HN: Create interactive diagrams with pop-up content","https://vexlio.com/features/interactive-diagrams-with-popups/",46
+"Show HN: A fast, privacy-first image converter that runs in browser","https://imageconverter.dev/",45
+"Amazon strategised about keeping its datacentres' full water use secret","https://www.theguardian.com/technology/2025/oct/25/amazon-datacentres-water-use-disclosure",44
+"Binary Retrieval-Augmented Reward Mitigates Hallucinations","https://arxiv.org/abs/2510.17733",44
+"You cannot outsource understanding","https://russmiles.substack.com/p/you-cannot-outsource-understanding",44
+"The Apple Network Server Mac OS ROMs have resurfaced","http://oldvcr.blogspot.com/2025/10/the-apple-network-server-macos-roms.html",43
+"Ivy League psychologist: 'Bring your whole self to work' is bad advice","https://www.cnbc.com/2025/10/24/bring-your-whole-self-to-work-is-bad-advice-ivy-league-psychologist-saysheres-why.html",43
+"Show HN: Create-LLM – Train your own LLM in 60 seconds","https://github.com/theaniketgiri/create-llm",42
+"VortexNet: Neural network based on fluid dynamics","https://github.com/samim23/vortexnet",42
+"Satoshi-Era Bitcoin Wallet Awakens, Moves $16.5M in BTC After 14 Years","https://twitter.com/OnchainLens/status/1981517459476926645",42
+"Berty – an encrypted and offline peer-to-peer messenger with no central server","https://berty.tech/features",42
+"FIFA's 2026 ticket scheme is a late-capitalist hellscape","https://www.theguardian.com/football/2025/oct/11/fifa-2026-world-cup-tickets-dynamic-pricing-nft-resale",41
+"Why I'm teaching kids to hack computers","https://www.hacktivate.app/why-teach-kids-to-hack",40
+"System.LongBool","https://docwiki.embarcadero.com/Libraries/Sydney/en/System.LongBool",40
+"Show HN: Chonky – a neural text semantic chunking goes multilingual","https://huggingface.co/mirth/chonky_mmbert_small_multilingual_1",40
+"ChatGPT Launches 'Company Knowledge'","https://openai.com/index/introducing-company-knowledge/",40
+"The State of Machine Learning Frameworks in 2019","https://thegradient.pub/state-of-ml-frameworks-2019-pytorch-dominates-research-tensorflow-dominates-industry/",39
+"Rust Contagious Borrow Issue","https://qouteall.fun/qouteall-blog/2025/How%20to%20Avoid%20Fighting%20Rust%20Borrow%20Checker#contagious-borrow-issue",39
+"Deepagent: A powerful desktop AI assistant","https://deepagent.abacus.ai",39
+"Honda's ASIMO (2021)","https://www.robotsgottalents.com/post/asimo",38
+"Show HN: Write Go code in JavaScript files","https://www.npmjs.com/package/vite-plugin-use-golang",37
+"Generalized K-Means Clustering","https://github.com/derrickburns/generalized-kmeans-clustering",37
+"Tech billionaires are now shaping the militarization of American cities","https://arstechnica.com/tech-policy/2025/10/troops-in-us-cities-tech-billionaires-are-shaping-that-too/",37
+"RFC 863 – Discard Protocol (1983)","https://datatracker.ietf.org/doc/html/rfc863",37
+"Rust MinIO Alternative","https://github.com/rustfs/rustfs",37
+"Expanding Our Use of Google Cloud TPUs and Services","https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",36
+"Ask HN: How to boost Gemini transcription accuracy for company names?","item?id=45640222",35
+"Rethinking CQRS: An Interview on OpenCQRS","https://docs.eventsourcingdb.io/blog/2025/10/23/rethinking-cqrs-an-interview-on-opencqrs/",35
+"US expands facial recognition at borders to track non-citizens","https://www.reuters.com/world/us/us-expands-facial-recognition-borders-track-non-citizens-2025-10-24/",35
+"Wikipedia Seems Pretty Worried About AI","https://nymag.com/intelligencer/article/wikipedia-contributors-are-worried-about-ai-scraping.html",33
+"New TeXmacs Beta Released","https://www.texmacs.org/builds/",33
+"The persistence of tradition: the curious case of Henry Symeonis (2023)","https://blogs.bodleian.ox.ac.uk/archivesandmanuscripts/2023/12/13/the-persistence-of-tradition-the-curious-case-of-henry-symeonis/",32
+"Power-over-Skin: Full-Body Wearables Powered by Intra-Body RF Energy (2024)","https://dl.acm.org/doi/10.1145/3654777.3676394",32
+"Ask HN: Second generation of intro to software dev for 3rd graders","item?id=45643716",31
+"Argentina's midterm election hands landslide win to Milei's libertarian overhaul","https://www.cnbc.com/2025/10/27/argentinas-midterm-election-hands-landslide-win-to-mileis-libertarian-overhaul.html",31
+"ProEnergy repurposes jet engines to power data centers","https://www.datacenterdynamics.com/en/news/proenergy-offers-repurposed-jet-engines-to-data-cent/",31
+"The fix wasn't easy, or C precedence bites","https://boston.conman.org/2025/10/20.1",31
+"We want to move Ruby forward","https://andre.arko.net/2025/10/26/we-want-to-move-ruby-forward/",31
+"The mild mannered Englishman who was the most prolific ghost hunter","https://lithub.com/the-mild-mannered-englishman-who-was-the-worlds-most-prolific-ghost-hunter/",31
+"Fil-C","https://fil-c.org",31
+"Ubios: China's Alternative to UEFI","https://pbxscience.com/ubios-chinas-alternative-to-uefi-and-the-new-era-of-firmware-standards/",30
+"Canada Fines Cybercrime Friendly Cryptomus $176M","https://krebsonsecurity.com/2025/10/canada-fines-cybercrime-friendly-cryptomus-176m/",30
+"Text Depixelization","https://github.com/spipm/Depixelization_poc",29
+"Calculating the Bounding Rectangle of a Circular Sector","https://asawicki.info/news_1791_calculating_the_bounding_rectangle_of_a_circular_sector",29
+"Torchcomms: A modern PyTorch communications API","https://pytorch.org/blog/torchcomms/",28
+"I built MindMaps for Linux and Git cmdz with quiz, typing game and cheatsheet","https://mindmapsonline.com/maps_list",28
+"Cyborgs vs. rooms, two visions for the future of computing","https://interconnected.org/home/2025/10/13/dichotomy",28
+"Any decent error message is a kind of oracle","https://digitalseams.com/blog/any-decent-error-message-is-a-kind-of-oracle",27
+"Tsdown – The Elegant Bundler for Libraries","https://tsdown.dev/",27
+"Zig + Qt feels like doing the impossible right","https://dayvster.com/blog/why-zig-+-qt-feels-like-doing-the-impossible-right/",27
+"Show HN: AutoLearn Skills for self-improving agents","https://www.autolearn.dev",27
+"Technical experts have zero customers","https://www.ivan.codes/thoughts/technical-experts-have-zero-customers",26
+"Palma 2 Pro","https://shop.boox.com/products/palma2pro",26
+"You Have No Idea How Screwed OpenAI Is","https://www.planetearthandbeyond.co/p/you-have-no-idea-how-screwed-openai",25
+"Show HN: Run any GitHub Action locally from your Cron job -- finally!","https://docs.dagu.io/features/executors/github-actions#basic-usage",25
+"Magic sizes enable high-fidelity assembly of programmable shells","https://arxiv.org/abs/2411.03720",24
+"The Great Butterfly Heist","https://www.theguardian.com/global/2025/oct/04/great-butterfly-heist-how-collector-stole-thousands-butterflies-from-australian-museums",24
+"Tech industry men getting plastic surgery decades earlier","https://www.wsj.com/style/fashion/why-tech-bros-are-getting-face-lifts-now-94278bb7",24
+"Searching for Charles Fourier in the ruins of a socialist utopia outside LA","https://kubicki.org/letters/the-dogs-of-llano-del-rio-i/",23
+"Load-time relocation of shared libraries (2011)","https://eli.thegreenplace.net/2011/08/25/load-time-relocation-of-shared-libraries/",23
+"Writing Advice","https://chadnauseam.com/advice/writing-advice",23
+"Ruby Central – Source of Truth Update","https://rubycentral.org/news/source-of-truth-update-friday-october-24-2025/",23
+"Language and thought are not the same thing: evidence from neuroimaging","https://pmc.ncbi.nlm.nih.gov/articles/PMC4874898/",23
+"Toothbrush is bristling with bacteria – is it time to change it?","https://www.bbc.com/future/article/20251017-why-you-might-want-to-clean-your-toothbrush-more",22
+"Univ. of California faculty push back against Big Brother cybersecurity mandate","https://www.science.org/content/article/university-california-faculty-push-back-against-big-brother-cybersecurity-mandate",22
+"Underdetermined Weaving with Machines (2021) [video]","https://www.youtube.com/watch?v=on_sK8KoObo",22
+"Dreamcast.rs: Rust environment for Dreamcast development","https://dreamcast.rs/setup.html",22
+"Galaxy XR, the first Android XR headset","https://blog.google/products/android/samsung-galaxy-xr/",21
+"Ralf Brown's Files (The x86 Interrupt List)","http://www.cs.cmu.edu/~ralf/files.html",21
+"Smart Beds Helped Them Sleep on a Cloud. Then the Cloud Crashed","https://www.nytimes.com/2025/10/24/business/amazon-aws-outage-eight-sleep-mattress.html",21
+"Portable GPU Programming – csc.fi","https://github.com/csc-training/portable-gpu-programming",21
+"Show HN: ScreenAsk – Free Screen Recording Links for Customer Support","https://screenask.com",21
+"Viral 'Free Potatoes' Post Cost This Farmer 150 Tons of Crops","https://www.vice.com/en/article/viral-free-potatoes-post-cost-this-farmer-150-tons-of-crops/",21
+"British journalist detained by ICE at SFO","https://sfstandard.com/2025/10/26/sami-hamdi-sfo-deportation-cair/",20
+"Simplify Your Code: Functional Core, Imperative Shell","https://testing.googleblog.com/2025/10/simplify-your-code-functional-core.html",20
+"Termite farmers fine-tune their weed control","https://arstechnica.com/science/2025/10/termite-farmers-fine-tune-their-weed-control/",19
+"US banks' private credit loan exposure nears $300B","https://www.moodys.com/web/en/us/insights/data-stories/breakdown-of-banks-annual-reporting-on-private-credit.html",19
+"Ask HN: Advice for creating a USB device linking 2 computers","item?id=45706169",19
+"Dead soldiers' teeth reveal diseases that doomed Napoleon's army","https://www.washingtonpost.com/science/2025/10/24/napoleons-army-diseases-ancient-dna-teeth/",19
+"Visualizing the most common unisex names in the US","https://nameplay.org/blog/common-unisex-names-by-gender-ratio",19
+"The design space of AI coding tools","https://austinhenley.com/blog/aidesignspace.html",19
+"Enchanting Imposters","https://daily.jstor.org/enchanting-imposters/",19
+"The Peter Principle and exploiting overconfident workers","https://marginalrevolution.com/marginalrevolution/2025/10/the-peter-principle-and-exploiting-overconfident-workers.html",19
+"Structure and Interpretation of Classical Mechanics","https://tgvaughan.github.io/sicm/toc.html",18
+"A Looking Glass Half Empty, Part 2: A Series of Unfortunate Events","https://www.filfre.net/2025/10/a-looking-glass-half-empty-part-2-a-series-of-unfortunate-events/",18
+"Resource use matters, but material footprints are a poor way to measure it","https://ourworldindata.org/material-footprint-limitations",18
+"Under President Trump's Direction, Scientific Protections Are Disappearing","https://blog.ucs.org/science-blogger/under-trumps-direction-scientific-protections-are-disappearing-at-record-speed/",18
+"Image Dithering: Eleven Algorithms and Source Code","https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html",18
+"Show HN: Sqlite3-dump - a fast SQLite to CSV and parquet","https://github.com/i64/sqlite3-dump",18
+"Ask HN: Anyone else use freepascal as their low level language?","item?id=45693719",18
+"Eget: Easy pre-built binary installation from GitHub","https://github.com/zyedidia/eget",18
+"If Your Adversary Is the Mossad (2014) [pdf]","https://www.usenix.org/system/files/1401_08-12_mickens.pdf",17
+"Cubical Quad Antennas and Margaret's Letter","http://ei3lh.eu/?p=88",17
+"Show HN: Random Makers – Show HN and Product Hunt, but Faster and Not Corporate","https://makers.random.gg/",17
+"You Already Have a Git Server","https://maurycyz.com/misc/easy_git/",17
+"Brainwave study sheds light on cause of 'hearing voices'","https://www.unsw.edu.au/newsroom/news/2025/10/brainwave-eeg-study-sheds-light-hearing-voices-schizophrenia",17
+"Pico Banana: Large-Scale Dataset for Image Editing by Apple","https://arxiv.org/abs/2510.19808",16
+"The Cooperative National Geologic Map","https://ngmdb.usgs.gov/nationalgeology/",16
+"The AI Gold Rush Is Cover for a Class War","https://jacobin.com/2025/10/artificial-intelligence-big-tech-labor/",16
+"Sustained western growth and Artificial Intelligence","https://datagubbe.se/llmfix/",16
+"Was Catch Me If You Can Based on a Complete Lie?","https://www.thesegoldwings.com/frank-abagnale/",16
+"Identifying Life-Changing Books with LLMs (2024)","https://blog.joellehman.com/identifying-life-changing-books-with-llms.html",16
+"The Future of Lodash","https://blog.ulisesgascon.com/the-future-of-lodash",16
+"C Undefined Behavior","https://www.eskimo.com/~scs/readings/undef.950311.html",16
+"Putin Says Russia Now Has Nuclear-Powered Missile","https://www.nytimes.com/2025/10/26/world/europe/russia-burevestnik-missile.html",15
+"Tamper-Sensing Meshes Using Low-Cost, Embedded Time-Domain Reflectometry","https://jaseg.de/blog/paper-sampling-mesh-monitor/",14
+"We Saved $500k per Year by Rolling Our Own S3","https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143",14
+"Scientists Discover New Path to Room-Temperature Superconductors","https://scitechdaily.com/the-holy-grail-of-physics-scientists-discover-new-path-to-room-temperature-superconductors/",14
+"The GPL, the App Store, and You","https://www.engadget.com/2011-01-09-the-gpl-the-app-store-and-you.html",14
+"SARS-CoV-2 mRNA vaccines sensitize tumours to immune checkpoint blockade","https://www.nature.com/articles/s41586-025-09655-y",14
+"Self-driving SaaS: When software runs itself","https://linear.app/now/self-driving-saas",14
+"Trump admin tries to rig Warner Bros. sale for favored Paramount Skydance studio","https://www.rawstory.com/paramount-trump-2674228540/",14
+"Is AI's Circular Financing Inflating a Bubble? [video]","https://www.youtube.com/watch?v=NbL7yZCF-6Q",14
+"The glaring security risks with AI browser agents","https://techcrunch.com/2025/10/25/the-glaring-security-risks-with-ai-browser-agents/",13
+"Draw high dimensional tensors as a matrix of matrices","https://blog.ezyang.com/2025/10/draw-high-dimensional-tensors-as-a-matrix-of-matrices/",13
+"Show HN: Status of my favorite bike share stations","https://blog.alexboden.ca/toronto-bike-share-status/",13
+"Norwegian Peace Council cancels event to honor Nobel winner Maria Corina Machado","https://www.norgesfredsrad.no/pressemelding-norges-fredsrad-arrangerer-ikke-fakkeltog-for-nobels-fredspris-2025/",13
+"Microsoft disables File Explorer preview for downloaded files by default","https://www.windowslatest.com/2025/10/26/microsoft-admits-file-explorer-preview-pane-wont-work-in-windows-11-25h2-for-internet-files-by-default/",13
+"Show HN: Inspec – Specification scheduling software for interior designers","https://inspec.design",13
+"Global key-value metadata storage for Scryer Prolog","https://github.com/jjtolton/environment.pl",13
+"Notes on Waveguide Synthesis (2018)","https://www.osar.fr/notes/waveguides/",13
+"Using jet engines for power generation at AI centers.","item?id=45705421",13
+"Amazon strategized about keeping its datacenters full water use secret","https://www.theguardian.com/technology/2025/oct/25/amazon-datacentres-water-use-disclosure",13
+"A Fork in the Road: Deciding Kafka's Diskless Future","https://jack-vanlightly.com/blog/2025/10/22/a-fork-in-the-road-deciding-kafkas-diskless-future",13
+"Toon – Token Oriented Object Notation","https://github.com/johannschopplich/toon",12
+"Knowledge Is Worth Your Time","https://chanda.bearblog.dev/knowledge-is-worth-your-time/",12
+"However small, just start. From zero to hero","https://www.theguardian.com/lifeandstyle/2025/oct/26/expert-motivation-tips-gym-to-do-list",12
+"Ondol","https://en.wikipedia.org/wiki/Ondol",12
+"SuperSonic – SuperCollider's audio engine in a Web AudioWorklet","https://www.patreon.com/posts/introducing-in-141953467",12
+"The 996 Schedule Just Means You Have No Leverage","https://www.joanwestenberg.com/p/996-just-means-you-have-no-leverage",12
+"The Lotus Evija's mad torque tech is the holy grail of EV engineering","https://www.autocar.co.uk/car-news/new-cars/lotus-evijas-mad-torque-tech-holy-grail-ev-engineering",12
+"iPhone 17 Pro Camera Review: Dolomites – Travel Photographer – Austin Mann","https://www.austinmann.com/trek/iphone-17-pro-camera-review-dolomites",12
+"QuickJS JavaScript Engine","https://bellard.org/quickjs/",11
+"SuperSonic – SuperCollider's powerful synth engine as a Web AudioWorklet","https://sonic-pi.net/supersonic/demo.html",11
+"AWS outage caused by latent race condition in the DynamoDB DNS management system","https://www.bleepingcomputer.com/news/technology/amazon-this-weeks-aws-outage-caused-by-major-dns-failure/",11
+"Front-Panel Booting an ATmega88 Microcontroller","https://www.linusakesson.net/hardware/frontpanel/index.php",11
+"Show HN: Pg_textsearch – BM25 Ranking for Postgres","https://docs.tigerdata.com/use-timescale/latest/extensions/pg-textsearch/",11
+"Nvidia DGX Spark Performance","https://ollama.com/blog/nvidia-spark-performance",11
+"Student handcuffed after Doritos bag mistaken for a gun by AI security system","https://www.msn.com/en-us/news/us/ar-AA1Pavwq",10
+"Auto Dark Mode for Windows","https://github.com/AutoDarkMode/Windows-Auto-Night-Mode",10
+"I love the smell of autopoiesis in the morning","https://interconnected.org/home/2025/10/15/3dp",10
+"AI can turn us into a society of p-zombies","https://prahladyeri.github.io/blog/2025/10/how-ai-can-turn-us-into-society-of-p-zombies.html",10
+"3-way FTP: Pushing files around with silly and unusual methods","http://rachelbythebay.com/w/2020/02/18/ftp/",10
+"Library creates double bound copy of 1984","https://malmo.se/boundbooksproject",10
+"How Accurate Are Polymarket's Odds?","https://dune.com/alexmccullough/polymarket-brier-score",10
+"How fast is Java? Teaching an old dog new tricks","https://dgerrells.com/blog/how-fast-is-java-teaching-an-old-dog-new-tricks",10
+"Gambling Is Bad","https://geohot.github.io//blog/jekyll/update/2025/10/24/gambling-is-bad.html",10
+"Acwj: A Compiler Writing Journey","https://github.com/DoctorWkt/acwj",9
+"Rocket launches are blasting a new hole in our ozone layer","https://newatlas.com/environment/rocket-launch-hole-ozone-layer/",9
+"Broadcom AFBR-S20: High-Performance Miniature Spectrometer Product Brief [pdf]","https://docs.broadcom.com/docs/AFBR-S20xx-PB",9
+"Show HN: Dictly – Local, real‑time voice‑to‑text for macOS (sub‑100ms, no cloud)","https://dictly.app/",9
+"Practical Defenses Against Technofascism","https://micahflee.com/practical-defenses-against-technofascism/",9
+"It Is Trump's Casino Economy Now. You'll Probably Lose","https://www.nytimes.com/2025/10/26/opinion/trump-economy-casino.html",9
+"Scientists are racing to grow human teeth in the lab","https://www.cnn.com/science/lab-grown-human-teeth-spc",9
+"SveltePlot: A Svelte native visualization framework","https://svelteplot.dev/",9
+"Nio shocks with fully active suspension – but how does it work?","https://www.autocar.co.uk/car-news/technology/nio-shocks-fully-active-suspension-how-does-it-work",9
+"What does the Turing Test test?","https://philipball86.substack.com/p/what-does-the-turing-test-test",9
+"More than 1.6M sign petition opposing Starmer's plan for digital ID cards","https://www.theguardian.com/politics/2025/sep/27/petition-opposing-starmer-plan-digital-id-cards",9
+"This month in Servo: experimental mode, Trusted Types, strokeText(), and more","https://servo.org/blog/2025/10/24/this-month-in-servo/",9
+"Navy loses two aircraft from USS Nimitz aircraft carrier within 30 minutes","https://apnews.com/article/navy-nimitz-aircraft-carrier-crashes-8afee8488bd39371350fe0a1dd55374d",8
+"Show HN: I Built DevTools for Blazor (Like React DevTools but for .NET)","https://blazordevelopertools.com/",8
+"Writing reliable and maintainable metaprograms in pure C99","https://github.com/hirrolot/metalang99",8
+"Docmost: An open-source collaborative wiki and documentation software","https://github.com/docmost/docmost",8
+"Beyond 'I Think, Therefore I Am': The Silence Between Your Thoughts","https://rewire.it/blog/beyond-i-think-therefore-i-am-discovering-the-self-in-the-silence-between-your-thoughts/",8
+"Why every website you used to love is getting worse","https://www.vox.com/technology/465922/enshittification-cory-doctorow-amazon-google-facebook",8
+"Automatically Translating C to Rust","https://cacm.acm.org/research/automatically-translating-c-to-rust/",8
+"KDE Linux deep dive: package management is amazing, which is why we don't inclu","https://pointieststick.com/2025/10/25/kde-linux-deep-dive-package-management-is-amazing-which-is-why-we-dont-include-it/",8
+"No Argument","https://unintendedconsequenc.es/no-argument/",8
+"Google flags safe sites as dangerous","https://immich.app/blog/google-flags-immich-as-dangerous",8
+"You Can Cool Chips with Lasers","https://spectrum.ieee.org/laser-cooling-chips",8
+"Fluxwing: ASCII-first UX design system with derivation model","https://fluxwing.com",7
+"The Embedding Dilemma: Why Your RAG Fails and How to Think in Chunks","https://rewire.it/blog/the-embedding-dilemma-why-your-rag-fails-and-how-to-think-in-chunks/",7
+"Washington lawyer on furlough lives out dream of running a hot dog cart","https://www.reuters.com/world/us/washington-lawyer-furlough-lives-out-dream-running-hot-dog-cart-2025-10-24/",7
+"Operating Systems Written in Free Pascal","https://wiki.freepascal.org/Operating_Systems_written_in_FPC",7
+"Raster Master v5.4 Sprite/Tile/Map Editor 88 Stars on GitHub","https://github.com/RetroNick2020/raster-master/releases/tag/v5.4R121",7
+"Bitter taste preferences are associated with antisocial personality traits","https://www.sciencedirect.com/science/article/abs/pii/S0195666315300428",7
+"Pixi: Reproducible Package Management for Robotics","https://prefix.dev/blog/reproducible-package-management-for-robotics",7
+"Using Ghidra to patch my keyboard's firmware","https://packet.delivery/blog/patching-galaxy100-firmware.html",7
+"Gleescript – Bundle Gleam-on-Erlang project into an executable file","https://github.com/lpil/gleescript",6
+"Arkady and Boris Strugatsky","https://en.wikipedia.org/wiki/Arkady_and_Boris_Strugatsky",6
+"Show HN: Hermes – Self-hosted video downloader","https://github.com/TechSquidTV/Hermes",6
+"Learn Multiplatform Z80 Assembly Programming with Vampires","https://www.chibiakumas.com/z80/",6
+"Sudan Ebola virus can persist in survivors for months, study shows","https://medicalxpress.com/news/2025-10-sudan-ebola-virus-persist-survivors.html",6
+"Point Shaving: Corruption in NCAA Basketball [pdf]","https://www.stat.berkeley.edu/~aldous/157/Papers/PointShaving.pdf",6
+"Water: A Zig chess library, framework, and engine","https://github.com/trevorswan11/water",6
+"Zune – A Luau Runtime, Similar to Lune, Node, or Bun, Written in Zig","https://github.com/Scythe-Technology/zune",6
+"Show HN: Centia.io – Open PostgreSQL/PostGIS back end for developers","https://centia.io/",6
+"OpenBSD C/C++ Toolchain in the Browser","https://openbsd.llvm.moe/",6
+"Neurosymbolic AI server combining Prolog's symbolic reasoning with MCP","https://github.com/adamrybinski/prolog-mcp",6
+"China released UBIOS to replace UEFI standard","https://www.tomshardware.com/software/china-releases-ubios-standard-to-replace-uefi-huawei-backed-bios-firmware-replacement-charges-chinas-domestic-computing-goals",6
+"ALA and Metformin Synergistically Ameliorate T2 Diabetes Cognitive Dysfunction","https://www.mdpi.com/2079-7737/14/7/885",6
+"Creating an Igcse Pseudocode Interpreter","https://ezntek.com/posts/creating-an-igcse-pseudocode-interpreter-pt-2-20250913t1349/",6
+"OpenAI and Anthropic vs. app developers: tech's Cronos syndrome","https://www.economist.com/business/2025/10/23/openai-and-anthropic-v-app-developers-techs-cronos-syndrome",6
+"Show HN: FlowLens – MCP server for debugging with Claude Code","https://magentic.ai/flowlens/",6
+"The Returns to Government R&D: Evidence from U.S. Appropriations Shocks","https://www.dallasfed.org/research/papers/2023/wp2305",5
+"Who Is Satoshi Nakamoto? A New Book Investigates Bitcoin's Creator","https://reason.com/2025/10/24/the-mysterious-mr-nakamoto/",5
+"Spent Fuel Pool","https://what-if.xkcd.com/29/",5
+"Fluidity Index: Next-Generation Super-Intelligence Benchmarks","https://arxiv.org/abs/2510.20636",5
+"LaTeX, LLMs and Boring Technology","https://eli.thegreenplace.net/2025/latex-llms-and-boring-technology/",5
+"Vibration Analysis and Control in Particle Accelerator 2018 [pdf]","https://indico.cern.ch/event/694811/contributions/2863859/attachments/1595533/2526938/2018_02_06_FCCee_MDI_workshop_Serluca.pdf",5
+"Beyond RaspberryPi: What are all the other SoC vendors up to *summarised*","https://sbcwiki.com/news/articles/state-of-embedded-q4-25/",5
+"Math Is Beatiful – Mandala Curves – Art from Planetary Orbits","https://gangtao.github.io/MandalaCurves/",5
+"The Counter Strike 2 skin market, valued at US$ 6B, collapses","https://www.tomshardware.com/video-games/ludicrous-usd6-billion-counter-strike-2-skins-market-crashes-loses-usd3-billion-overnight-game-update-destroys-inventories-collapses-market",5
+"How to Draw a Tetrapod","https://dotat.at/@/2025-10-24-tetrapod.html",5
+"Zsnes Changed SNES Emulation Forever – Interview with the Creator","https://www.youtube.com/watch?v=iG-oqvj4Tqk",5
+"Why New Jersey's cold storage surge matters for logistics","https://www.freightwaves.com/news/why-new-jerseys-cold-storage-surge-matters-for-logistics",5
+"Unicode Footguns in Python","https://pythonkoans.substack.com/p/koan-15-the-invisible-ink",5
+"OpenBSD C/C++ Toolchain in the Browser","https://openbsd.llvm.moe/",5
+"Show HN: Story Keeper – AI agents with narrative continuity instead of memory","https://github.com/neurobloomai/pact-ax",5
+"Show HN: Learn Basic Chess Movements","https://www.minichessgames.com/?hn",4
+"By the Power of Grayscale","https://zserge.com/posts/grayskull/",4
+"Hacktoberfest 2025","https://hacktoberfest.com",4
+"Oz Labor Gov rules out giving tech giants free rein to mine IPR to train AI","https://www.theguardian.com/technology/2025/oct/27/labor-rules-out-giving-tech-giants-free-rein-to-mine-copyright-content-to-train-ai",4
+"Russia Fires First Nuke-Powered Cruise Missile, Burevestnik","https://www.eurasiantimes.com/russia-fires-worlds-1st-nuke-powered-cruise-missile-burevestnik/",4
+"Baker – language-agnostic project scaffolder with hooks (Rust)","https://github.com/aliev/baker",4
+"Use the Saw, Fear the Saw","https://stephango.com/saw",4
+"Terahertz Tech Sets Stage for "Wireless Wired" Chips","https://spectrum.ieee.org/terahertz-chip-room-temperature",4
+"LLM-empowered knowledge graph construction: A survey","https://arxiv.org/abs/2510.20345",4
+"Meta will ban rival AI chatbots from WhatsApp","https://www.techradar.com/ai-platforms-assistants/meta-will-ban-rival-ai-chatbots-from-whatsapp",4
+"3D printed maquette of Amsterdam on scale 1:2000","https://www.at5.nl/nieuws/235139/de-hele-stad-in-schaal-12000-hell-of-a-job",4
+"Cyber exec with lavish lifestyle charged with selling secrets to Russia","https://www.theregister.com/2025/10/24/former_l3harris_cyber_director_charged/",4
+"FlashPack: Fast Model Loading for PyTorch","https://blog.fal.ai/introducing-flashpack-lightning-fast-model-loading-for-pytorch/",4
+"Apple will phase out Rosetta 2 in macOS 28","https://developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment",4
+"Valkey 9.0 Released with Ability to Achieve One Billion Requests / Second","https://www.phoronix.com/news/Valkey-9.0-Released",4
+"Show HN: Check what is hogging your disk zpace","https://github.com/AzisK/Zpace",4
+"Chatbots Are Pushing Sanctioned Russian Propaganda","https://www.wired.com/story/chatbots-are-pushing-sanctioned-russian-propaganda/",3
+"Show HN: The Legal Embedding Benchmark (MLEB)","https://huggingface.co/blog/isaacus/introducing-mleb",3
+"The reason electricity prices are rising, and it's not data centers","https://www.washingtonpost.com/climate-environment/2025/10/25/data-centers-electricity-prices-rise/",3
+"Go Primitive in Java, or Go in a Box","https://donraab.medium.com/go-primitive-in-java-or-go-in-a-box-c26f5c6d7574",3
+"Why open source may not survive the rise of generative AI","https://www.zdnet.com/article/why-open-source-may-not-survive-the-rise-of-generative-ai/",3
+"China makes millions from UK asylum hotels","https://www.thetimes.com/uk/politics/article/china-millions-uk-british-companies-asylum-hotels-n7v3fwkpl",3
+"How to Build a Solar Powered Electric Oven","https://solar.lowtechmagazine.com/2025/10/how-to-build-a-solar-powered-electric-oven/",3
+"Wheeled Inverted Pendulum Model","https://scaron.info/robotics/wheeled-inverted-pendulum-model.html",3
+"Are voice coils better than motors? [video]","https://www.youtube.com/watch?v=Y3h0vZ2PYl8",3
+"Bitmovin (YC S15) Is Hiring Engineering ICs and Managers in Europe","https://bitmovin.com/careers",0
